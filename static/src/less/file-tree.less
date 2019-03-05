@@ -1,0 +1,102 @@
+@import "../../bower_components/bootstrap/less/variables";
+
+@treebuilder-color-background: @body-bg;
+@treebuilder-color: @headings-color;
+@treebuilder-color-primary: @btn-primary-bg;
+@treebuilder-color-selected: @body-bg;
+
+.file-tree{
+  color: @treebuilder-color;
+  a{
+    text-decoration: none;
+    color: @treebuilder-color;
+    &:hover{
+      color: @treebuilder-color;
+    }
+  }
+
+  .placeholder {
+    border: 1px solid @treebuilder-color-primary;
+    margin-left: 10px !important;
+  }
+
+  ol.tree {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-left: none;
+
+    ol{
+      margin: 0 0 0 30px;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li{
+      position: relative;
+      margin: 0;
+      padding: 0;
+
+      div{
+        line-height: 26px;
+        margin: 0;
+        cursor: pointer;
+      }
+
+      &.folder{
+        & > div > span{
+          padding-left: 15px;
+          cursor: pointer;
+          padding-right: 8px;
+        }
+        & > div > span:before{
+          font-family: 'Glyphicons Halflings';
+          content: "\e117";
+        }
+        &.mjs-nestedSortable-expanded > div > span:before{
+          font-family: 'Glyphicons Halflings';
+          content: "\e118";
+        }
+        &.selected > div{
+          background: @treebuilder-color-primary;
+          color: @treebuilder-color-selected;
+        }
+      }
+      &.file{
+        & > div > span, & > div > a > span{
+          padding-right: 8px;
+
+          &:before{
+            padding-left: 15px;
+            font-family: 'Glyphicons Halflings';
+            content: "\e022";
+          }
+        }
+        &.selected > div{
+          background: @treebuilder-color-primary;
+          color: @treebuilder-color-selected;
+        }
+      }
+      &.mjs-nestedSortable-collapsed > ol{
+        display: none;
+      }
+    }
+  }
+
+  &.sortable{
+    ol.tree{
+      li{
+        &.folder{
+          & > div > span{
+            cursor: move;
+          }
+        }
+        &.file{
+          & > div > span, & > div > a > span{
+            cursor: move;
+          }
+        }
+      }
+    }
+  }
+}

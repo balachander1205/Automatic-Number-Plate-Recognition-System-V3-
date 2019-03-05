@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="Description" content="tinyCalendar is a small (10.0KB, 4.5KB gZip) but very advanced jQuery date picker" />
+    <meta name="Keywords" content="date, date picker, calendar" />
+    <meta name="author" content="Peter Dematté" />
+    <meta http-equiv="language" content="en" />
+	<link rel="stylesheet" type="text/css" href="../index.css">
+	<link rel="stylesheet" type="text/css" href="../demo/month.css">
+	<link rel="stylesheet" type="text/css" href="../demo/week.css">
+	<link rel="stylesheet" type="text/css" href="../demo/datePicker.css">
+
+	<title>tiny date picker</title>
+</head>
+<body>
+<div id="content-wrapper">
+	<div class="input-toggles">
+		<input class="date" value="2016-06-23" readonly="" />		
+	</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../jqDatePicker.min.js"></script>
+<!-- <script type="text/javascript" src="../calendar.js"></script> -->
+<script type="text/javascript" src="../demo/events.js"></script>
+<!-- <script type="text/javascript" src="../datePicker.js"></script> -->
+<!-- <script type="text/javascript" src="../jqDatePicker.js"></script> -->
+
+<script type="text/javascript">
+	'use strict';
+
+	var datePicker = window.datePicker = $('.date').datePicker({
+			weekDays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+			months: ['January', 'February', 'March', 'April', 'May', 'June',
+				'July', 'August', 'September', 'October', 'November', 'December'],
+
+			sundayBased: false,
+			renderWeekNo: true,
+			equalHight: true,
+			weekDayClass: 'week-day', // not standard: used in template.start
+			weekDayRowHead: '',
+			template: {
+				row: '<td class=""><span class=""{{event}} data-day=\'{"day":"{{day}}", "month":"{{month}}", "year":"{{year}}"}\'>{{day-event}}{{today}}</span></td>',
+				start: function(month, year) { // rendering week days in table header
+					var options = this.options,
+						weekDayRow = '<th class="">{{day}}</th>',
+						row = [];
+
+					if (options.renderWeekNo) { // week number head
+						row.push(weekDayRow.replace(/{{day}}/g, options.weekDayRowHead));
+					}
+
+					for (var n = 0, dayOfWeek = 0; n < 7; n++) { // week days
+						dayOfWeek = n + (options.sundayBased ? 0 : (n === 6 ? -6 : 1));
+						row.push(weekDayRow.replace(/class="(.*?)"/, function($1, $2) {
+							return 'class="' + options.weekDayClass + ' ' +
+								(options.workingDays.indexOf(dayOfWeek) === -1 ?
+								options.weekEndClass : '') + '"';
+						}).replace(/{{day}}/g, options.weekDays[dayOfWeek]));
+					}
+					return '<table class="cal-month"><thead><tr>' +
+							row.join('') +
+							'</tr></thead><tbody><tr>';
+				},
+				event: function(day, date, event) { // rendering events
+					var text = [],
+						uuids = [],
+						someExtra = '';
+
+					for (var n = 0, m = event.length; n < m; n++) {
+						event[n].text && text.push('- ' + event[n].text);
+
+						uuids.push(event[n]._id);
+
+						if (event[n].extra) { // extend functionality...
+							someExtra = event[n].extra;
+						}
+					}
+					text = text.join("\n");
+
+					return text ? ' title="' + text + '"' +
+						' data-uuids=\'[' + uuids.join(', ') + ']\'' +
+						(someExtra ? ' data-name="' + someExtra + '"' : '') : '';
+				},
+				today: function(day, date) { // rendering today; just for fun...
+					return '<span class="today-icon">+</span>';
+				},
+				day: function(day, date, event) { // rendering every day
+					var length = event.length;
+
+					for (var n = length; n--; ) { // check if it's only a 'disabled' event
+						if (event[n].type && event[n].type === 'disabled') { // or event[n].disabled
+							length--;
+						}
+					}
+					if (length > 1) {
+						return day + '<span class="count-icon">' + length + '</span>';
+					}
+				}
+			},
+			events: events
+		});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,572 @@
+.bottom-left {
+    position: absolute;
+    width: 89%;
+    text-align: -webkit-center;
+    /* bottom: 0px; */
+    left: 2px;
+    background: white;
+    font-size: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    font-weight: bolder;
+  }
+  .top-left {
+    position: absolute;
+    /* bottom: 0px; */
+    width: 89%;
+    text-align: -webkit-center;
+    background: white;
+    font-size: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    font-weight: bolder;
+  }
+  .modal-zoom-body {
+    margin-left: 15px;
+    margin-top: 11px;
+  }
+  .modal-zoom-body {
+        /*margin-left: 15px;
+        margin-top: 11px;*/
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+      
+      .modal-dialog {   
+        /*width: 80% !important;*/
+      }
+      button#livefeedreplay {
+       float: right; 
+       z-index: 100;
+       margin-left: 6px;
+       padding: 0px 8px 0px 8px;
+       border: 0;
+       /*box-shadow: 2px 2px 1px 1px;*/
+     }
+     .top-left-video {
+      position: absolute;
+      /* bottom: 0px; */
+      width: 94.5%;
+      text-align: -webkit-center;
+      background: white;
+      font-size: 10px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-top: 5px;
+      font-weight: bolder;
+    }
+    .navbar {
+      margin-bottom: 0 !important;
+      min-height: 0 !important;
+    }
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+/*header { margin-bottom: 40px; }*/
+.navbar-header {
+    float: none;
+}
+textarea { resize: none; }
+
+.file-tree {
+  /*margin-bottom: 60px;*/
+  /*height: 70px;*/
+}
+.col-sm-4 {
+    /*background: #272e38;*/
+    background-color: rgba(0,0,0,.2);
+    padding-bottom: 10px;
+    height: 510px;
+    overflow: auto;
+    color: white;
+}
+.file-tree {
+    height: 385px;
+    /*margin-bottom: 10px;*/
+    overflow: auto;
+    /*margin-top: 21px;*/
+}
+.col-sm-2 {
+    background: black;
+    /*height: 30px;
+    color: white;
+    font-size: x-large;*/
+}
+body {
+    background: #292b4a;
+    /*background: url(/static/images/map.png) #431524;    */
+    /*background: url(/static/images/portfolio5.jpg) #431524;*/
+    background-attachment: fixed;
+}
+footer {
+    /*background: white;*/
+    /*margin-top: 10px;*/
+    text-align: -webkit-center;
+    font-size: small;
+    color: white;
+    padding-top: 10px;
+}
+img#veh-num-img {
+    width: 160px;
+    /*margin-left: -13px;*/
+    margin-top: 10px;
+}
+img{
+    /*background-image: url(/static/images/1.jpg);*/
+    /*background: url(/static/images/map.png) #431524;*/
+    background-size: cover;
+    /*background-image: linear-gradient(45deg, #eee 25%, #222222 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%)*/
+}
+#demo p.well.well-sm { height: 80px; }
+span#date, span#time , span#number{
+    font-size: small;
+}
+.row {
+    margin-left: 0;
+}
+img#veh-original-img {
+    height: 105px;
+    /*margin-top: 10px;*/
+    /*margin-left: -13px;*/
+    /*background-image: url(/static/images/1.jpg);*/
+}
+video {
+    margin-left: -40px;
+}
+div#data-div {
+    /*background: #272e38;*/
+    background-color: rgba(0,0,0,.2);
+    height: 257px;
+    width: 190px;
+    color: white;
+}
+#veh_num{
+    background-color: black;
+}
+.navbar-header {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-family: -webkit-pictograph;
+}
+button#print-slip {
+    /*border: 0;*/
+    /*padding: 7px 55px 7px 55px;*/
+    padding: 7px 62px 7px 62px;
+    margin-top: 10px;
+    /*background: blue;*/
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+    box-shadow: 1px 1px 1px 0px black;
+}
+a.canvasjs-chart-credit {
+    display: none;
+}
+div#tbldatadiv {
+    /*background: #272e38;*/
+    background-color: rgba(0,0,0,.2);
+    height: 202px;
+    /*padding-left: 14px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 38px;*/
+    width: 100%;
+    overflow-y: scroll;
+}
+#dataTable tr:nth-child(odd) {
+    /*background: rgb(148, 148, 148);*/
+    background-color: rgba(0,0,0,.2);
+    border-top: 1px solid rgba(255,255,255,.125);
+}
+#dataTable tr:nth-child(even) {
+    /*background: rgb(202, 202, 202);*/
+    border-top: 1px solid rgba(255,255,255,.125);
+
+}
+#dataTable td {
+    width: 191px;
+    text-align: -webkit-center;
+}
+#dataTable tr {
+    height: 44px;
+}
+#dataTable th {
+    /*background: black;*/
+    background-color: rgb(43, 14, 18);
+    color: white;
+    text-align: -webkit-center;
+    font-family: sans-serif;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: -1px;
+    text-align: center;
+}
+/*button#btngetdata, #export {
+    text-shadow: 1px 1px 1px black;
+    border: 0;
+    margin-left: 6px;
+    padding: 2px 4px 3px 4px;
+    box-shadow: 1px 1px 1px 0px black;
+    background-color: rgb(0, 0, 255);
+    }*/
+    /*Calender CSS*/
+    div#ui-datepicker-div {
+        border: 0;
+        background: white;
+        background-color: rgba(0,0,0,.2);
+    }
+    .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+        background: red;
+        border: 0;
+        color: white;
+    }
+    table.ui-datepicker-calendar thead {
+        background: black;
+        color: white;
+    }
+    .ui-datepicker td {
+        border: 0;
+        padding: 0px !important;
+    }
+    canvas.canvasjs-chart-canvas {
+        background: rgba(31, 31, 31, 0.18);
+    }
+    textarea#selectable-tree-output {
+        background: rgba(16, 18, 20, 0.34);
+        color: white;
+        border: 0;
+        border-radius: 1px;
+    }
+    p#dataxportpapa {
+        color: white;
+        font-family: initial;
+        /*background: rgb(43, 14, 18);*/
+        padding-top: 4px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        width: 100%;
+    }
+    nav.navbar.navbar-inverse {
+        border: 0;
+        /* text-align: center; */
+    }
+    nav.navbar.navbar-inverse {
+        /*background: #101214;*/
+        background-color: rgba(0,0,0,.2);
+    }
+    .GaugeMeter {
+      position: Relative;
+      text-align: Center;
+      overflow: Hidden;
+      cursor: Default;
+      display: inline-block;
+      margin-left: 0px;
+      /*background: #272e38;*/
+      background-color: rgba(255,255,255,.06);
+  }
+
+  .GaugeMeter SPAN, .GaugeMeter B {
+      width: 54%;
+      position: Absolute;
+      text-align: Center;
+      display: Inline-Block;
+      color: RGBa(0,0,0,.8);
+      font-weight: 100;
+      font-family: "Open Sans", Arial;
+      overflow: Hidden;
+      white-space: NoWrap;
+      text-overflow: Ellipsis;
+      /*margin: 0 23%;*/
+      margin-left: -15px;
+  }
+
+  .GaugeMeter[data-style="Semi"] B {
+      width: 80%;
+      margin: 0 10%;
+  }
+
+  .GaugeMeter S, .GaugeMeter U {
+      text-decoration: None;
+      font-size: .60em;
+      font-weight: 200;
+      opacity: .6;
+  }
+
+  .GaugeMeter B {
+      color: #000;
+      font-weight: 200;
+      opacity: .8;
+  }
+    /*
+     *  STYLE 1
+     */
+
+     #tbldatadiv::-webkit-scrollbar-track
+     {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #2b2b2b;
+    }
+
+    #tbldatadiv::-webkit-scrollbar
+    {
+        width: 12px;
+        background-color: #2b2b2b;
+    }
+
+    #tbldatadiv::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #000000;
+    }
+
+    .file-tree::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        /*background-color: #2b2b2b;*/
+        background-color: rgb(255, 255, 255);
+    }
+
+    .file-tree::-webkit-scrollbar
+    {
+        width: 5px;
+        /*background-color: #2b2b2b;*/
+        background-color: rgba(0,0,0,.2);
+    }
+
+    .file-tree::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        /*background-color: #000000;*/
+        background-color: rgba(34, 69, 157, 0.1);
+    }
+    .file-tree ol.tree li.file.selected>div {
+        color: #520000 !important;
+        /*background: #000000;*/
+        background-color: rgba(255,255,255,.06);
+    }
+    .file-tree ol.tree li.folder.selected>div {
+        color: #fff;
+        /*background: #000000;*/
+        background-color: rgba(255,255,255,.06);
+    }
+    /* Body scrol bar*/
+    body::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #2b2b2b;
+    }
+
+    body::-webkit-scrollbar
+    {
+        width: 12px;
+        background-color: #2b2b2b;
+    }
+
+    body::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #000000;
+    }
+    div#PreviewGaugeMeter_2 {
+        height: 190px;
+        width: 190px !important;
+    }
+
+    input#datepicker {
+        color: white;
+    }
+    div#showData>table {
+        width: 100%;
+        max-width: 100%;
+        color: white;
+        font-family: sans-serif;
+    }
+
+
+    .selectable-tree-col::-webkit-scrollbar {
+        width: 12px;
+        /* background-color: #2b2b2b; */
+        background-color: rgba(0,0,0,.2);
+    }
+    .selectable-tree-col::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        /* background-color: #000000; */
+        background-color: rgba(0,0,0,.2);
+    }
+    .selectable-tree-col::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        /* background-color: #2b2b2b; */
+        background-color: rgba(0,0,0,.2);
+    }
+
+    .top-left-selectable-tree {
+        color: black;
+        background-color: white;
+        position: absolute;
+        /* bottom: 0px; */
+        width: 99.5%;
+        /* text-align: -webkit-center; */
+        background: white;
+        font-size: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 5px;
+        font-weight: bolder;
+        margin-left: -14px;
+    }
+    /* Analytics tab CSS */
+    #datepicker, #from_datepicker, #to_datepicker{
+        padding: 5px 0px;
+    }
+    #datepicker, #btngetdata, #export {
+        background-color: black;        
+    }
+    .data-tbl-div {
+        height: 500px;
+        overflow: auto;
+    }
+    .cur-data-tbl-div{
+        height: 250px;
+        overflow: auto;   
+    }
+    #alpr_data_table thead tr th {
+        position: sticky;
+        background-color: rgb(43, 14, 18);
+        color: white;
+        text-align: center;
+        font-family: sans-serif;        
+        top: -1px;
+    }
+    #alpr_data_table {
+        text-align: center;
+    }
+    .modal-dialog.alpr-data-model{
+        /*width: 50% !important;*/
+    }
+    .col-md-6.alpr-modal-p-div p:nth-child(2n+1) {
+        /*background-color: black;*/
+        color: #595959;
+        padding: 0px 0px 0px 7px;
+        border-radius: 2px;
+        font-weight: 700;
+
+    }
+    .col-md-6.alpr-modal-p-div p:nth-child(2n) {
+        /*background-color: aliceblue;*/
+        color: #595959;
+        padding: 0px 0px 0px 7px;
+        border-radius: 2px;
+    }
+    .modal-header {
+        border-bottom: none !important;
+        background: #1c81d9;
+    }
+    .nav-tabs > li.active > a{
+        background-color: black;
+        color: white;
+    }
+    .col-md-12.well.well-sm.div-border.data-tbl-div, .cur-data-tbl-div {
+        background-color: rgba(0,0,0,.2);
+        color: white;
+    }
+    .modal-zoom-body.alpr_modal_body {
+        /*background-color: rgba(0,0,0,.2);*/
+        padding-top: 25px;
+        padding-right: 5px;
+        border-radius: 2px;
+
+    }
+    #alpr_qrcode_image {
+        /*margin-top: -25px;*/
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    #alpr_image {
+        margin-top: -12px;
+    }
+    #PreviewGaugeMeter_4 {
+        width: 100% !important;
+        box-shadow: 1px 2px 9px -9px;
+    }
+    #PreviewGaugeMeter_4 > span {
+        margin-left: -11px;
+    }
+    #PreviewGaugeMeter_4 > b {
+        margin-left: -10px;
+    }
+    #from_datepicker, #to_datepicker {
+        background-color: black;
+    }
+    .modal-footer {
+        border-top: none;
+        background: #191b33;
+    }
+    #end_date_datepicker {
+        /*padding: 2px 56px;*/
+        background-color: #120f0f1a;
+    }
+    #total_records, #total_park_hours, #total_cost{
+        width: 100% !important;
+        box-shadow: 1px 2px 9px -9px;
+
+    }
+    #PreviewGaugeMeter_2 SPAN, #PreviewGaugeMeter_2 b {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    ul.nav.nav-tabs.nav-justified {
+        top: 0;
+        position: sticky;
+        z-index: 1000;
+        background: #2b0e12;
+    }
+    .nav-tabs.nav-justified>li {
+        background: white;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: serif;
+    }
+    div#selectable-tree-output-thumb {
+        width: 30%;
+        height: 115px;
+        /* padding: 0px; */
+        padding-left: 8px;
+    }
+    img#selectable-tree-output-thumbnail {
+        width: 100px;
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 6px;
+        height: 90px;
+    }
+    .col-sm-4.selectable-tree-col-gallery {
+        background: #272e38;
+            background-color: rgb(39, 46, 56);
+        background-color: rgba(0,0,0,.2);
+        padding-bottom: 10px;
+        height: 415px;
+        overflow: auto;
+        color: white;
+    }
+    /* End of analytics tab CSS */
+    canvas#veh_img_can {
+        display: none;
+    }

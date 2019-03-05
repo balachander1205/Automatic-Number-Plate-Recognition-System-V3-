@@ -1,0 +1,499 @@
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [22/Jan/2019 13:19:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:19:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:10] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:10] "GET /static/css/bower_components/jvectormap/jquery-jvectormap.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:11] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:12] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:12] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:12] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:12] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:12] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:12] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:12] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:13] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:17] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:18] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:18] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:18] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:18] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:18] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:24] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:24] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:24] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:24] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:24] "GET /static/css/bower_components/jvectormap/jquery-jvectormap.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:24] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:25] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:26] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:27] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:42] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:42] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:44] "GET /static/images/cop.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:20:52] "GET /anprfromcam?camera=static/videos/alpr-feed1.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:01] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:12] "POST /getalprsqltabledata?date=2017-12-12&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:16] "POST /getalprsqltabledata?date=2017-12-17&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:16] "POST /getalprsqltabledata?date=2017-12-17&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:17] "POST /getalprsqltabledata?date=2017-12-17&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:35] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:36] "GET /static/css/bower_components/jvectormap/jquery-jvectormap.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:36] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:36] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:36] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:36] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:37] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:38] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:38] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:38] "GET /static/css/jquery-ui.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:38] "GET /static/css/simple-chart.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/js/maps/jquery.gmapping.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/fonts/varela-round.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/dist/css/file-tree.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/js/customImageAnpr.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/dist/js/file-tree.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/js/simple-chart.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/js/jquery.table2excel.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:39] "GET /static/js/canvasjs.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:40] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:41] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:41] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:43] "GET /static/tests/Capture2.PNG HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:48] "GET /static/tests/Capture5.PNG HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Created channel=1
+INFO:Connecting to ::1:5672
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 59803, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 59803, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Created channel=1
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "POST /anprprocess?image=static/tests/Capture2.PNG HTTP/1.1" 200 -
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 59804, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 59804, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "POST /anprprocess?image=static/tests/Capture5.PNG HTTP/1.1" 200 -
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 59807, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 59807, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "POST /anprprocess?image=static/tests/Capture2.PNG HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "GET /static/NumberPlates/2019-01-22//qrcodes/337ebb05-ab69-4462-93c6-f0967622c767_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "GET /static/originalImage/imgOriginalScene.png?time=1548143510127 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:21:50] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:22:00] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:22:00] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:22:01] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:22:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:22:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:23:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:23:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:24:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:24:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:25:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:25:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:26:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:26:30] "GET /static/tests/03-02-2018/test_046.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 60288, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 60288, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [22/Jan/2019 13:26:30] "POST /anprprocess?image=static/tests/03-02-2018/test_046.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:26:30] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:26:31] "GET /static/NumberPlates/2019-01-22//qrcodes/14076f6e-93eb-4fbf-aec8-836d6ae6e008_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:26:31] "GET /static/originalImage/imgOriginalScene.png?time=1548143790823 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:26:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:27:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:27:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:28:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:28:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:29:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:29:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:30:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:30:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:31:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:31:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:31:53] "GET /static/tests/03-02-2018/test_091.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 60990, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 60990, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [22/Jan/2019 13:31:53] "POST /anprprocess?image=static/tests/03-02-2018/test_091.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:31:53] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:31:53] "GET /static/NumberPlates/2019-01-22//qrcodes/e0c032f9-5d7f-4457-9e83-9592e8b729c4_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:31:53] "GET /static/originalImage/imgOriginalScene.png?time=1548144113432 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:32:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:32:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:33:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:33:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:34:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:34:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:35:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:35:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:36:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:36:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:37:08] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:37:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:38:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:38:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:39:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:39:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:40:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:40:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:41:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:41:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:42:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:42:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:43:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:43:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:44:06] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:44:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:45:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:45:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:46:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:46:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:47:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:47:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:48:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:48:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:49:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:49:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:50:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:50:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:51:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:51:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:52:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:52:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:53:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:53:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:54:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:54:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:55:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:55:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:56:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:56:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:57:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:57:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:58:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:58:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:59:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 13:59:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:00:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:00:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:01:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:01:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:02:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:02:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:03:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:03:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:04:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:04:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:05:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:05:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:06:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:06:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:07:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:07:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:08:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:08:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:09:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:09:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:10:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:10:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:11:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:11:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:12:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:12:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:13:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:13:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:14:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:14:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:15:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:15:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:16:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:16:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:17:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:17:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:18:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:18:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:19:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:19:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:20:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:20:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:21:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:21:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:22:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:22:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:23:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:23:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:24:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:24:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:25:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:25:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:26:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:26:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:27:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:27:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:28:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:28:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:29:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:29:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:30:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:30:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:31:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:31:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:32:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:32:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:33:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:33:34] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:34:04] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:34:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:35:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:35:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:36:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:36:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:37:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:37:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:38:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:38:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:39:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:39:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:40:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:40:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:41:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:41:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:42:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:42:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:43:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:43:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:44:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:44:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:45:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:45:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:46:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:46:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:47:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:47:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:48:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:48:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:49:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:49:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:50:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:50:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:51:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:51:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:52:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:52:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:53:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:53:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:54:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:54:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:55:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:55:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:56:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:56:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:57:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:57:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:58:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:58:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:59:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 14:59:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:00:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:00:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:01:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:01:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:02:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:02:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:03:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:03:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:04:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:04:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:05:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:05:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:06:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:06:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:07:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:07:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:08:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:08:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:09:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:09:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:10:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:10:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:11:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:11:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:12:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:12:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:13:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:13:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:14:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:14:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:15:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:15:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:16:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:16:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:17:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:17:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:18:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:18:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:19:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:19:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:20:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:20:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:21:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:21:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:22:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:22:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:23:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:23:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:24:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:24:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:25:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:25:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:26:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:26:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:27:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:27:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:28:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:28:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:29:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:29:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:30:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:30:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:31:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:31:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:32:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:32:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:33:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:33:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:34:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:34:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:35:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:35:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:36:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:36:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:05] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:16] "GET /static/tests/03-02-2018/test_087.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 56963, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 56963, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:16] "POST /anprprocess?image=static/tests/03-02-2018/test_087.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:16] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:17] "GET /static/NumberPlates/2019-01-22//qrcodes/6332f879-e02a-43d6-a548-2d8c4d376460_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:17] "GET /static/originalImage/imgOriginalScene.png?time=1548151636812 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:19] "GET /static/tests/03-02-2018/test_089.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 56979, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 56979, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:19] "POST /anprprocess?image=static/tests/03-02-2018/test_089.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:19] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:20] "GET /static/NumberPlates/2019-01-22//qrcodes/5abe3559-bb78-460f-a7fb-247937e4b9ba_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:20] "GET /static/originalImage/imgOriginalScene.png?time=1548151639699 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:35] "GET /getdetectedfaces HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:50] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:50] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:50] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [22/Jan/2019 15:37:50] "POST /getalprsqltabledata?date=2019-01-22&fromdate=null&todate=null HTTP/1.1" 200 -

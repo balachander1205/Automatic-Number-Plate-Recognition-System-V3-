@@ -1,0 +1,1729 @@
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:11] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:12] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:13] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:14] "GET /static/images/cop.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:15] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:15] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:15] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:15] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:15] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:15] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:16] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:17] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:18] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:18] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:18] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:18] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:18] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:18] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:27] "GET /anprfromcam?camera=static/videos/alpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:30] "GET /anprfromcam?camera=static/videos/alpr-feed1.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:00:36] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /static/fonts/varela-round.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /static/css/simple-chart.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /static/dist/css/file-tree.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /static/css/jquery-ui.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:49] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/js/maps/jquery.gmapping.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/js/customImageAnpr.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/dist/js/file-tree.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/js/canvasjs.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/js/jquery.table2excel.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:50] "GET /static/js/simple-chart.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:51] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:51] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:54] "GET /static/tests/Capture2.PNG HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 64130, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 64130, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:54] "POST /anprprocess?image=static/tests/Capture2.PNG HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:54] "GET /static/NumberPlates/2018-10-30//qrcodes/7de276a5-d381-4fa7-aa6a-a5743d3198ea_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:54] "GET /static/originalImage/imgOriginalScene.png?time=1540895514349 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:54] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:01:54] "GET /static/NumberPlates/2018-10-30/numplates/7de276a5-d381-4fa7-aa6a-a5743d3198ea.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:10] "GET /static/tests/Capture5.PNG HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 64173, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 64173, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:10] "POST /anprprocess?image=static/tests/Capture5.PNG HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:10] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:11] "GET /static/NumberPlates/2018-10-30//qrcodes/ea3e6023-8cea-46a2-8dbb-3872d043da99_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:11] "GET /static/originalImage/imgOriginalScene.png?time=1540895530710 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:11] "GET /static/NumberPlates/2018-10-30/numplates/ea3e6023-8cea-46a2-8dbb-3872d043da99.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:14] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:26] "POST /updatealprdata?alprid=ea3e6023-8cea-46a2-8dbb-3872d043da99&startdatetime=2018-10-30%2016:02&enddatetime=2019-10-25%2016:02 HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:28] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:39] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:39] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:39] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:39] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:39] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:41] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:51] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:51] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:52] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:53] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:58] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:58] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:58] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:58] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:02:58] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:00] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:04] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:05] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:05] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:05] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:41] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:41] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:41] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:41] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:41] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:41] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:42] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:43] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:44] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:03:45] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:02] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:02] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:03] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:03] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:21] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:21] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:21] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:50] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:50] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:50] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:51] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:51] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:51] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:51] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:04:51] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\readCsv.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:19] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:20] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:21] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:30] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:30] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:30] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:30] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:30] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:30] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:31] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:32] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:18:33] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:10] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:11] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:12] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:19:13] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:09] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:10] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:11] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:12] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:12] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:12] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:12] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:55] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:55] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:55] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:55] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:55] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:55] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:56] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:57] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:58] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:20:59] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:00] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:00] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:00] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:00] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:00] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:00] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:16] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:17] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:18] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:19] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:23] "GET /static/videos/alpr-feed1.mp4/ HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:42] "GET /static/videos/alpr-feed1.mp4/ HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:21:50] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:14] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:14] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:14] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:14] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:15] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:15] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:15] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:15] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:23] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:24] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:25] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:26] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:29] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:30] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:31] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:22:32] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\readCsv.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:11] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:12] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:13] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:14] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:14] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:14] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:14] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:17] "GET /anprfromcam?camera=static/videos/alpr-feed.mp4/ HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:27] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:27] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:27] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:27] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:27] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:27] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:28] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:29] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:30] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:23:32] "GET /anprfromcam?camera=static/videos/alpr-feed1.mp4/ HTTP/1.1" 200 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\readCsv.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\readCsv.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:37] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:38] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:39] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:40] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:41] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:41] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:42] "GET /anprfromcam?camera=static/videos/alpr-feed1.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:49] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:49] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:49] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:24:49] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:25:01] "GET /anprfromcam?camera=static/videos/alpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:25:10] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:25:10] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:25:10] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:26:43] "GET /capture?camera=static/videos/alpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:26:45] "GET /capture?camera=static/videos/alpr-feed.mp4 HTTP/1.1" 200 -
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:28] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:29] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:30] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:31] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:31] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:31] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:31] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:31] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:31] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:27:31] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:30] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:30] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:30] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:30] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:58] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:58] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:58] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:58] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:58] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:58] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:58] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:29:59] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:08] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:22] "GET /anprfromcam?camera=static/videos/alpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:31] "GET /anprfromcam?camera=static/videos/alpr-feed1.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:53] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:53] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:53] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:53] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:54] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:30:56] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:39:30] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:39:30] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:39:31] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:39:31] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:42:03] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:42:11] "POST /updatealprdata?alprid=ea3e6023-8cea-46a2-8dbb-3872d043da99&startdatetime=2018-10-30%2016:02&enddatetime=2017-10-31%2016:42 HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:42:13] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:42:17] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:42:18] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:42:18] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\camera.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:30] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:31] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:32] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:33] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:43:33] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\camera.py', reloading
+INFO: * Restarting with stat
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:45:56] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:45:56] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:45:56] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:01] "GET /static/tests/03-02-2018/test_047.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:01] "POST /anprprocess?image=static/tests/03-02-2018/test_047.jpg HTTP/1.1" 500 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\anpr.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:50] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:50] "GET /static/fonts/varela-round.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/simple-chart.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/dist/css/file-tree.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/jquery-ui.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:51] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/maps/jquery.gmapping.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/customImageAnpr.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:52] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/dist/js/file-tree.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/canvasjs.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/jquery.table2excel.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/simple-chart.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:53] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:54] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:54] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:56] "POST /anprprocess?image=static/tests/03-02-2018/test_046.jpg HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:46:56] "GET /static/tests/03-02-2018/test_046.jpg HTTP/1.1" 200 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\anpr.py', reloading
+INFO: * Restarting with stat
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:32] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/fonts/varela-round.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/simple-chart.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/dist/css/file-tree.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/jquery-ui.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:33] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/maps/jquery.gmapping.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/customImageAnpr.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:34] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/dist/js/file-tree.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/canvasjs.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/jquery.table2excel.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/simple-chart.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:35] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:36] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:36] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 54193, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 54193, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:41] "POST /anprprocess?image=static/tests/03-02-2018/test_046.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:41] "GET /static/NumberPlates/2018-10-30//qrcodes/3cb42d17-2efa-4ba6-badf-1daa710ecde0_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:41] "GET /static/originalImage/imgOriginalScene.png?time=1540898321677 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:41] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:42] "GET /static/NumberPlates/2018-10-30/numplates/3cb42d17-2efa-4ba6-badf-1daa710ecde0.png HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 54210, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 54210, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:44] "POST /anprprocess?image=static/tests/03-02-2018/test_047.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:45] "GET /static/NumberPlates/2018-10-30//qrcodes/a4e00098-1427-4e18-9a20-0af98646e487_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:45] "GET /static/originalImage/imgOriginalScene.png?time=1540898324934 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:48:45] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\DrawRedRectangleAroundPlate.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:30] "GET /static/tests/03-02-2018/test_048.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 54311, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 54311, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:31] "POST /anprprocess?image=static/tests/03-02-2018/test_048.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:31] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:31] "GET /static/NumberPlates/2018-10-30//qrcodes/52f0be50-e0e3-4ccb-aa8a-12b39371212f_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:31] "GET /static/originalImage/imgOriginalScene.png?time=1540898371096 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:31] "GET /static/NumberPlates/2018-10-30/numplates/a4e00098-1427-4e18-9a20-0af98646e487.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:31] "GET /static/NumberPlates/2018-10-30/numplates/52f0be50-e0e3-4ccb-aa8a-12b39371212f.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:38] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:38] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:38] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:38] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:38] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:40] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:47] "POST /updatealprdata?alprid=52f0be50-e0e3-4ccb-aa8a-12b39371212f&startdatetime=2018-10-30%2016:49&enddatetime=2018-10-31%2016:49 HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:48] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:53] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:54] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:54] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:49:55] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:50:08] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:50:08] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:50:08] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:53:55] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:53:55] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:53:55] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:53:55] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:53:55] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\camera.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 16:54:40] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:54:40] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:54:41] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:54:41] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:54:41] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:55:34] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 16:55:39] "GET /anprfromcam?camera=static/videos/alpr-feed.mp4 HTTP/1.1" 200 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:27] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:28] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:29] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 17:06:30] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+WARNING: * Debugger is active!
+INFO: * Debugger PIN: 278-634-662
+INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [30/Oct/2018 18:05:12] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:05:12] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:05:13] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:05:14] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:09:54] "GET /static/tests/03-02-2018/test_050.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 62417, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 62417, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:09:54] "POST /anprprocess?image=static/tests/03-02-2018/test_050.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:09:54] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:09:54] "GET /static/NumberPlates/2018-10-30//qrcodes/22095cf8-1005-4117-97f6-c1757411c3ac_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:09:54] "GET /static/originalImage/imgOriginalScene.png?time=1540903194625 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:09:54] "GET /static/NumberPlates/2018-10-30/numplates/22095cf8-1005-4117-97f6-c1757411c3ac.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:09:57] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:02] "POST /updatealprdata?alprid=22095cf8-1005-4117-97f6-c1757411c3ac&startdatetime=2018-10-30%2018:09&enddatetime=2018-10-31%2018:10 HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:03] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:15] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:15] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:15] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:43] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:43] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:44] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:44] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:44] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:44] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:44] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:44] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:47] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:48] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/custom.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:49] "GET /static/images/cctv-img.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:50] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:10:50] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:14] "GET /static/css/twitter-bootstrap/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:14] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:14] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:15] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:15] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:53] "GET /anpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:54] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:54] "GET /anprfromcam?camera=static%2Fvideos%2Falpr-feed.mp4 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:54] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:54] "GET /static/css/twitter-bootstrap/bootstrap.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:54] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:54] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:11:54] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:06] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:06] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:06] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:08] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "POST /getalprsqltabledata?date=2018-10-17&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17//qrcodes/0932ebb3-55d3-4b71-8ec7-ed38db4e67e1_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17//qrcodes/a540836c-c393-4fcc-8dc9-1fc79d0921b7_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17/numplates/a540836c-c393-4fcc-8dc9-1fc79d0921b7.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17/numplates/0932ebb3-55d3-4b71-8ec7-ed38db4e67e1.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17/numplates/8f93fbf3-6705-4346-92db-f62839954e04.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/tests/bike/thangam-lorry-body-builders-namakkal-ho-namakkal-bus-body-manufacturers-pt7frt.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/tests/difficult_tracks/I1000290.BMP HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17/numplates/b08e43f0-ce86-4cb7-889c-6de41e959d95.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17//qrcodes/8f93fbf3-6705-4346-92db-f62839954e04_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17//qrcodes/b08e43f0-ce86-4cb7-889c-6de41e959d95_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/NumberPlates/2018-10-17/numplates/72bbfa2a-7218-4a4c-bade-2758e87ba8ff.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:18] "GET /static/tests/bike/935171.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/72bbfa2a-7218-4a4c-bade-2758e87ba8ff_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17/numplates/7984cc88-d0ca-4400-a90d-ed7cac2d95ff.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/tests/bike/scg_pn214-93.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/7984cc88-d0ca-4400-a90d-ed7cac2d95ff_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17/numplates/4b4cc9a8-2cac-4b74-878f-d2e1d04881d2.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/4b4cc9a8-2cac-4b74-878f-d2e1d04881d2_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17/numplates/3ad2f548-2bab-4f98-b061-fc9489a1d073.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/tests/bike/IMG_20180611_132900325.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/tests/bike/IMG_20180929_141052.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17/numplates/3c7db7cd-1da9-4fbd-b8b9-a05ff15a78da.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17/numplates/afee0966-d49a-4406-9729-f70e4bba7839.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/9f893c9f-ab59-4a56-93ac-4c89ace6971f_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17/numplates/9f893c9f-ab59-4a56-93ac-4c89ace6971f.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/afee0966-d49a-4406-9729-f70e4bba7839_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/3c7db7cd-1da9-4fbd-b8b9-a05ff15a78da_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/f8572ecf-7eff-4045-921f-7453d19bf858_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17//qrcodes/3ad2f548-2bab-4f98-b061-fc9489a1d073_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:19] "GET /static/NumberPlates/2018-10-17/numplates/818d4bdc-af11-485c-bba1-5064bcad68e1.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/tests/bike/pl_zkl683jp.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17//qrcodes/818d4bdc-af11-485c-bba1-5064bcad68e1_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17/numplates/0beac550-b8e9-4152-83f4-22efe6ec1350.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/tests/03-02-2018/test_055.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17/numplates/a9f1956c-7aec-4f3e-b710-a0c9978b9ef5.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17/numplates/222383ef-127b-49ba-9dc0-aaab007b7784.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/tests/02-02-2018/frame_008793%20(2).jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17//qrcodes/222383ef-127b-49ba-9dc0-aaab007b7784_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17//qrcodes/7cf6e5bd-d5b0-4e39-bf10-6d0b0f7e5a91_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17//qrcodes/a9f1956c-7aec-4f3e-b710-a0c9978b9ef5_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17//qrcodes/8781f27f-68f5-424d-a48e-1aff4ae03a5e_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17//qrcodes/0beac550-b8e9-4152-83f4-22efe6ec1350_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17/numplates/93612394-b0fd-4e9e-8899-ff21249ae196.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/tests/02-02-2018/Fire-service.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/tests/03-02-2018/test_053.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17/numplates/7cf6e5bd-d5b0-4e39-bf10-6d0b0f7e5a91.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17/numplates/8781f27f-68f5-424d-a48e-1aff4ae03a5e.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:20] "GET /static/NumberPlates/2018-10-17//qrcodes/93612394-b0fd-4e9e-8899-ff21249ae196_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/db9620a9-20cc-4055-a2f3-b260ee9de791.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/tests/difficult_tracks/I1000274.BMP HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/9de78ee2-383a-4398-8159-5f3438464a45.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17//qrcodes/9de78ee2-383a-4398-8159-5f3438464a45_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17//qrcodes/db9620a9-20cc-4055-a2f3-b260ee9de791_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/a38f758f-ad12-4621-b637-18fd8e5756ae.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17//qrcodes/386a8034-7661-4632-97c8-8fc5bc7c59e1_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/tests/difficult_tracks/I1000275.BMP HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/386a8034-7661-4632-97c8-8fc5bc7c59e1.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17//qrcodes/a38f758f-ad12-4621-b637-18fd8e5756ae_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/tests/02-02-2018/odd-even.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/235d0b33-117f-40ec-970f-b52b25d8dd31.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/tests/bike/rty.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/85f080b9-07f6-4059-ba89-47156bff6596.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/06dfbf78-ba81-413f-8551-dbe2a4928b08.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/fa3cc2dd-aaf7-49a8-ad98-f4180d8630a6.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/NumberPlates/2018-10-17/numplates/060cc4b8-7099-4665-b998-986f281a89cf.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:21] "GET /static/tests/bike/product-500x500%20(1).jpeg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17/numplates/34dfd460-b22d-4920-a8f7-76f67a2ab032.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/85f080b9-07f6-4059-ba89-47156bff6596_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/3cf7e42c-4c7c-4406-b302-437d168246fa_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/06dfbf78-ba81-413f-8551-dbe2a4928b08_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/060cc4b8-7099-4665-b998-986f281a89cf_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/ae7ca521-6627-4545-b1fe-c2edc8762300_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/43a7e282-98d8-4b13-8edf-9fa76049a065_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17/numplates/43a7e282-98d8-4b13-8edf-9fa76049a065.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17/numplates/3cf7e42c-4c7c-4406-b302-437d168246fa.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17/numplates/ae7ca521-6627-4545-b1fe-c2edc8762300.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/tests/02-02-2018/Non-AC_DSC_0053.JPG HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/34dfd460-b22d-4920-a8f7-76f67a2ab032_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/fa3cc2dd-aaf7-49a8-ad98-f4180d8630a6_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/tests/bike/lt_dm655.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/235d0b33-117f-40ec-970f-b52b25d8dd31_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/tests/02-02-2018/dk_ab44887.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17//qrcodes/777bd81a-381a-4659-8454-16335884ad6f_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:22] "GET /static/NumberPlates/2018-10-17/numplates/777bd81a-381a-4659-8454-16335884ad6f.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17//qrcodes/ceeecb77-4324-40b2-a68d-db78be16cf82_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/tests/02-02-2018/fancyno14617.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17/numplates/ceeecb77-4324-40b2-a68d-db78be16cf82.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17/numplates/bbc8de30-0b4f-420b-ab5d-44f45943d8b6.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17//qrcodes/a55d0ba0-aee4-4247-83e1-1fa171206eea_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17//qrcodes/bbc8de30-0b4f-420b-ab5d-44f45943d8b6_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17/numplates/a55d0ba0-aee4-4247-83e1-1fa171206eea.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17/numplates/9fe9a4ed-529a-4b71-a54d-af39d3d3bce5.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17//qrcodes/9fe9a4ed-529a-4b71-a54d-af39d3d3bce5_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/tests/02-02-2018/frame_000014.jpg HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17/numplates/2c705ef8-2008-41a2-99c1-7b2403dca735.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/tests/difficult_tracks/I1000300.BMP HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17//qrcodes/2c705ef8-2008-41a2-99c1-7b2403dca735_qrcode.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:23] "GET /static/NumberPlates/2018-10-17/numplates/f8572ecf-7eff-4045-921f-7453d19bf858.png HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:26] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:26] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:26] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:27] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/fonts/varela-round.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/AdminLTE.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/skin-blue.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/simple-chart.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/cropper.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/cropper.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/croper-main.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/css/fonts/fonts.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:45] "GET /static/dist/css/file-tree.min.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/css/anpr.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/css/jquery-ui.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/css/calendar.css HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/31531.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/portfolio5.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/user2-160x160.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/icons/setting-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/anpr.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/icons/contact.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/icons/analytics.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/images/qr-code.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:46] "GET /static/js/app.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/maps/jquery.gmapping.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/radial-progress-bar.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/customImageAnpr.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/cropper.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/cropper.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/croper-main.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/gauge.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/justgage.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/dist/js/file-tree.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/es6.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/canvasjs.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/jquery.table2excel.min.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/simple-chart.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:47] "GET /static/js/jquery.thooClock.js HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:48] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:48] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:13:49] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:00] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 63283, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 63283, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:04] "POST /anprprocess?image=static/tests/03-02-2018/test_050.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:04] "GET /static/NumberPlates/2018-10-30//qrcodes/4211e6cc-4ffe-4362-ab38-3f6c4e3938ea_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:04] "GET /static/originalImage/imgOriginalScene.png?time=1540903444679 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:04] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:05] "GET /static/NumberPlates/2018-10-30/numplates/4211e6cc-4ffe-4362-ab38-3f6c4e3938ea.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:07] "POST /anprprocess?image=static/tests/03-02-2018/test_054.jpg HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:07] "GET /static/tests/03-02-2018/test_054.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 63315, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 63315, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:15] "POST /anprprocess?image=static/tests/03-02-2018/test_053.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:15] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:15] "GET /static/NumberPlates/2018-10-30//qrcodes/1159c76e-36a2-4446-b03d-bce6b0e0588f_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:15] "GET /static/originalImage/imgOriginalScene.png?time=1540903455128 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:14:15] "GET /static/NumberPlates/2018-10-30/numplates/1159c76e-36a2-4446-b03d-bce6b0e0588f.png HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 63488, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 63488, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:15:58] "POST /anprprocess?image=static/tests/03-02-2018/test_048.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:15:58] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:15:59] "GET /static/NumberPlates/2018-10-30//qrcodes/59b0792f-fce7-4293-9609-f90fdad67f48_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:15:59] "GET /static/originalImage/imgOriginalScene.png?time=1540903558700 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:15:59] "GET /static/NumberPlates/2018-10-30/numplates/59b0792f-fce7-4293-9609-f90fdad67f48.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:21:30] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:21:30] "GET /static/js/gauge.min.js.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:21:30] "GET /static/css/cropper.min.css.map HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:21:43] "GET /static/images/1.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:22:57] "GET /static/tests/03-02-2018/test_056.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:22:57] "POST /anprprocess?image=static/tests/03-02-2018/test_056.jpg HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:21] "GET /static/tests/03-02-2018/test_049.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 64422, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 64422, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:21] "POST /anprprocess?image=static/tests/03-02-2018/test_049.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:21] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:22] "GET /static/NumberPlates/2018-10-30//qrcodes/9898d335-fbad-4c40-9e62-ffc781f0d1f3_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:22] "GET /static/originalImage/imgOriginalScene.png?time=1540904121972 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:22] "GET /static/NumberPlates/2018-10-30/numplates/9898d335-fbad-4c40-9e62-ffc781f0d1f3.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:25] "GET /static/tests/03-02-2018/test_052.jpg HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 64444, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 64444, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:25] "POST /anprprocess?image=static/tests/03-02-2018/test_052.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:28] "POST /anprprocess?image=static/tests/03-02-2018/test_054.jpg HTTP/1.1" 500 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 64458, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 64458, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:32] "POST /anprprocess?image=static/tests/03-02-2018/test_050.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:32] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:33] "GET /static/NumberPlates/2018-10-30//qrcodes/1a565f95-5eca-45ad-965f-ab8dd146bfdd_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:33] "GET /static/originalImage/imgOriginalScene.png?time=1540904132796 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:33] "GET /static/originalImage/imgOriginalScene.png?time=1540904132797 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:33] "GET /static/NumberPlates/2018-10-30/numplates/1a565f95-5eca-45ad-965f-ab8dd146bfdd.png HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 64478, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 64478, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:36] "POST /anprprocess?image=static/tests/03-02-2018/test_049.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:36] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:36] "GET /static/NumberPlates/2018-10-30//qrcodes/72f03a49-9bed-49c4-a9f8-c6315f74f450_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:36] "GET /static/originalImage/imgOriginalScene.png?time=1540904136122 HTTP/1.1" 200 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 64525, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 64525, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:58] "POST /anprprocess?image=static/tests/03-02-2018/test_047.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:58] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:59] "GET /static/NumberPlates/2018-10-30//qrcodes/d3facf27-000a-4014-ad83-8e021ccc9f85_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:59] "GET /static/originalImage/imgOriginalScene.png?time=1540904158857 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:59] "GET /static/NumberPlates/2018-10-30/numplates/72f03a49-9bed-49c4-a9f8-c6315f74f450.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:59] "GET /static/NumberPlates/2018-10-30//qrcodes/72f03a49-9bed-49c4-a9f8-c6315f74f450_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:25:59] "GET /static/NumberPlates/2018-10-30/numplates/d3facf27-000a-4014-ad83-8e021ccc9f85.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:37:43] "POST /updatealprdata?alprid=7de276a5-d381-4fa7-aa6a-a5743d3198ea&startdatetime=2018-10-30%2016:01&enddatetime=2021-10-31%2018:37 HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [30/Oct/2018 18:37:45] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:41] "GET /static/tests/03-02-2018/test_056.jpg HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:41] "POST /anprprocess?image=static/tests/03-02-2018/test_056.jpg HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:46] "POST /anprprocess?image=static/tests/03-02-2018/test_054.jpg HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:46] "GET /static/tests/03-02-2018/test_054.jpg HTTP/1.1" 304 -
+INFO:Connecting to ::1:5672
+INFO:Created channel=1
+INFO:Closing connection (200): Normal shutdown
+INFO:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN socket=('::1', 53811, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN socket=('::1', 53811, 0, 0)->('::1', 5672, 0, 0) params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+INFO:Closing connection (200): Normal shutdown
+INFO:Disconnected from RabbitMQ at localhost:5672 (200): Normal shutdown
+INFO:Connection closed; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>, reason_code=200, reason_text='Normal shutdown')
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:50] "POST /anprprocess?image=static/tests/03-02-2018/test_050.jpg HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:50] "POST /getalprsqltabledata?date=2018-10-31&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:50] "GET /static/NumberPlates/2018-10-30/numplates/93fcd176-4d80-4465-812e-3962f4270dd0.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:50] "GET /static/NumberPlates/2018-10-30//qrcodes/93fcd176-4d80-4465-812e-3962f4270dd0_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:50] "GET /static/originalImage/imgOriginalScene.png?time=1540958450244 HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:30:52] "POST /getalprsqltabledata?date=2018-10-30&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:00] "POST /getalprsqltabledata?date=2018-10-31&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:00] "GET /static/NumberPlates/2018-10-30//qrcodes/93fcd176-4d80-4465-812e-3962f4270dd0_qrcode.png HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:09] "POST /updatealprdata?alprid=93fcd176-4d80-4465-812e-3962f4270dd0&startdatetime=2018-10-31%2009:30&enddatetime=2021-11-30%2009:31 HTTP/1.1" 500 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:11] "POST /getalprsqltabledata?date=2018-10-31&fromdate=null&todate=null HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:18] "GET /imageanpr HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:18] "GET /static/css/AdminLTE.min.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:18] "GET /static/css/skin-blue.min.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:18] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:18] "GET /static/fonts/varela-round.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:18] "GET /static/css/simple-chart.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/cropper.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/cropper.min.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/croper-main.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/fonts/fonts.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/dist/css/file-tree.min.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/anpr.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/calendar.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/css/jquery-ui.css HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/js/jQuery-2.1.4.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/images/qr-code.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/images/menuIcon_sprite.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/images/portfolio5.jpg HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/images/31531.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/images/user2-160x160.jpg HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/images/icons/cctv-icon.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:19] "GET /static/images/icons/setting-icon.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/images/icons/anpr-icon.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/images/anpr.jpg HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/images/icons/contact.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/images/icons/analytics.png HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/app.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/maps/jquery.gmapping.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/radial-progress-bar.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/customImageAnpr.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/cropper.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/cropper.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/croper-main.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/dot/donutty-jquery.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/raphael-2.1.4.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/gauge.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/justgage.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:20] "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:21] "GET /static/dist/js/file-tree.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:21] "GET /static/js/canvasjs.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:21] "GET /static/js/es6.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:21] "GET /static/js/jquery.table2excel.min.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:21] "GET /static/js/simple-chart.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:21] "GET /static/js/jquery.thooClock.js HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:21] "GET /static/css/style-datepicker.css HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:22] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:22] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 -
+INFO:127.0.0.1 - - [31/Oct/2018 09:31:22] "GET /static/images/cop.png HTTP/1.1" 304 -
+INFO: * Detected change in 'E:\\MY-PROJECTS\\pythonRest-ANPR - V2\\app.py', reloading
+INFO: * Restarting with stat
+INFO: * Restarting with stat
+INFO: * Restarting with stat
+INFO: * Restarting with stat

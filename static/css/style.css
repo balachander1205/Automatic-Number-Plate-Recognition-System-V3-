@@ -1,0 +1,639 @@
+.Dlogo {
+	/*position: absolute;
+	left: 10px;
+	top: 0;
+	z-index: 9999;*/        
+    z-index: 9999;
+    width: 30%;
+    border-radius: 100%;
+}
+.sidebar {
+	padding: 50px 0 0 0;
+}
+.sidebar-toggle {
+	background: url(../images/menuIcon_sprite.png) no-repeat 3px -236px!important;
+	margin: 10px;
+}
+.sidebar-menu li a {
+	font-size: 16px;
+	height: 50px;
+}
+.sidebar-menu li a i {
+	float: left;
+	height: 13px;
+	width: 35px;
+	margin-top: 5px;
+}
+.sidebar-menu li a i.Dash {
+	background: url(../images/menuIcon_sprite.png) no-repeat 0 0;
+}
+.sidebar-menu li a i.Helpdesk {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -17px;
+	height: 17px;
+	margin-top: 5px;
+}
+.sidebar-menu li a i.Event {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -34px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Trainings {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -54px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Recognizing {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -75px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.People {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -97px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Product {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -119px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Announcemnets {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -145px;
+	height: 25px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Surveys {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -171px;
+	height: 25px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Bookmarks {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -194px;
+	height: 25px;
+	margin-top: 0px;
+	 
+}
+
+.sidebar-menu li a i.Contact {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -219px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.bcontaner{
+	width:100%;
+	/*border-top:2px solid #ccc;*/
+	/*padding:10px 0 0 0;*/
+	float:left;
+	margin:10px 0 0 0;
+    margin-bottom: 5px;
+}
+body.skin-blue.sidebar-mini.modal-open {
+    padding-right: 0 !important;
+}
+.profi_pic{
+	/*border:1px solid #ccc;*/
+	/*padding:3px;*/
+	/*margin:0 10px 10px 0;*/
+}
+.charm_hedding{
+	font-size:22px;
+	 
+	color:#006cb4;
+}
+.product_row{
+	 
+	overflow:hidden;
+	width:100%;
+	border-top:1px solid #ccc;
+	padding:10px 0 0 0;
+	margin:0 0 5px 0 ;
+}
+.product_row:first-child{
+	border:none;
+}
+.wid100{
+	width:100%;
+	float:left;
+	
+}
+ @media (max-width:767px) {
+.Dlogo {
+	left: 38%;
+}
+}
+
+img.profi_pic.num_plate_img {
+    width: 100%;
+    height: 50px;
+}
+img.profi_pic.qr_code_img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.profi_pic.cam_live_feed {
+    width: 100%;
+    height: 225px;
+}
+
+/* Gauge Meter CSS*/
+.GaugeMeter {
+    position: Relative;
+    text-align: Center;
+    overflow: Hidden;
+    cursor: Default;
+    display: inline-block;
+    margin-left: 0px;
+    /* background: #272e38; */
+    /*background-color: rgba(255,255,255,.06);*/
+}
+#PreviewGaugeMeter_2 SPAN, #PreviewGaugeMeter_2 b {
+    width: 100% !important;
+    margin: 0 !important;
+}
+.GaugeMeter SPAN, .GaugeMeter B {
+    width: 54%;
+    position: Absolute;
+    text-align: Center;
+    display: Inline-Block;
+    color: RGBa(0,0,0,.8);
+    font-weight: 100;
+    font-family: "Open Sans", Arial;
+    overflow: Hidden;
+    white-space: NoWrap;
+    text-overflow: Ellipsis;
+    /* margin: 0 23%; */
+    margin-left: -15px;
+}
+#PreviewGaugeMeter_2 SPAN, #PreviewGaugeMeter_2 b {
+    width: 100% !important;
+    margin: 0 !important;
+}
+div#PreviewGaugeMeter_2 {
+    height: 190px;
+    /*width: 190px !important;*/
+}
+.GaugeMeter B {
+    color: #000;
+    font-weight: 200;
+    opacity: .8;
+}
+.GaugeMeter S, .GaugeMeter U {
+    text-decoration: None;
+    font-size: .60em;
+    font-weight: 200;
+    opacity: .6;
+}
+/*End of gauge meter CSS*/
+img.profi_pic.wind_img{
+    width: 100%;
+}
+img.profi_pic.temp_img{
+    width: 100%;
+}
+img.profi_pic.humid_img {
+    width: 100%;
+}
+img.profi_pic.car_img {    
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p#vehicle_count {
+    text-align: -webkit-center;
+    font-size: 20px;
+    font-weight: 600;
+}
+p#temp_data {
+    text-align: -webkit-center;
+    font-size: 20px;
+    font-weight: 600;
+}
+p#humid_data {
+    text-align: -webkit-center;
+    font-size: 20px;
+    font-weight: 600;
+}
+p#wind_data {
+    text-align: -webkit-center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Maps css*/
+div#map_inner svg {
+    width: 70% !important;
+    height: auto;
+}
+div#map {
+    height: 225px;
+    width: 100%;
+}
+table#alpr_data_tbl {
+    /*background: #eef5f9;*/
+}
+table#alpr_data_tbl tr{
+	/*background:#321b49;	*/
+}
+table#alpr_data_tbl tr:nth-child(even) {
+    background: #ffffff38;
+}
+/*table#alpr_data_tbl tr:nth-child(odd) {
+    background: #1c81d9;
+}*/
+table#alpr_data_tbl thead>tr {
+    background: #25408f;
+    font-size: smaller;
+}
+
+table#alpr_data_tbl tbody tr td{
+	/*background: #311a4887;	*/
+}
+img.profi_pic.veh_img {
+    width: 100%;
+    height: 105px;
+}
+img.profi_pic.alpr_img {
+    width: 100%;
+}
+img.profi_pic.crop_img {
+    width: 100%;
+    height: 105px;
+}
+img.profi_pic.zoom_img {
+    width: 100%;
+}
+/* Data table pagination button css */
+a#alpr_data_tbl_previous {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #d9534f;
+    color: white !important;
+}
+a.paginate_button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #d9534f;
+    color: white !important;
+}
+a.paginate_button.current {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent !important;
+    border-radius: 4px;
+    background: white !important;
+    color: white !important;
+}
+div#alpr_data_tbl_info {
+    color: white;
+}
+.dataTables_length select {
+    color: black;
+}
+div#alpr_data_tbl_length {
+    color: white;
+}
+input[type="search"] {
+    width: 100%;
+    padding: 7px 4px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Model Window for Cam Live Feed */
+.modal-content {
+    background: #262f40;
+}
+.btn-default {
+    color: white;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+#map text {
+    display: none;
+}
+div#map_inner>div>svg {
+    display: none !important;
+}
+/* Gauge meter css */
+canvas#veh_count_meter {
+    width: 100% !important;
+    height: auto !important;
+}
+canvas#temp_meter {
+    width: 100% !important;
+    height: auto !important;
+}
+.blue-box {
+/*    background: rgb(28, 155, 161);
+
+    background: rgba(147,206,222,1);
+    background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 59%, rgba(73,165,191,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(59%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+    background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 59%, rgba(73,165,191,1) 100%);
+    background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 59%, rgba(73,165,191,1) 100%);
+    background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 59%, rgba(73,165,191,1) 100%);
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 59%, rgba(73,165,191,1) 100%);
+*/
+    /*background-image: url('/static/images/anpr-bg2.jpg');*/
+    /*border-top-color: #00a65a;*/
+    /*border-top: 3px solid #d2d6de;*/
+}
+div#alpr_data_tbl_length {
+    display: none;
+}
+div#alpr_data_tbl_filter {
+    display: none;
+}
+/* Data table css */
+table#alpr_data_tbl {
+    display: block;
+    height: 300px;
+    overflow-y: scroll;
+}
+div#alpr_data_tbl_paginate {
+    display: none;
+}
+div#alpr_data_tbl_info {
+    display: none;
+}
+input#singleDateRange {
+    color: black;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dt__calendar_m_d {
+    color: black;
+}
+input#singleDateRange {
+    margin-right: 10px;
+}
+table#alpr_data_tbl thead tr th {
+    width: 100px !important;
+}
+table#alpr_data_tbl thead {
+    /*display: block;*/
+    top: 0;
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#alpr_data_tbl tbody tr td {
+    /*width: 110px !important;*/
+    color: #5f5f5f;
+}
+div#myclock canvas {
+    width: 65% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.myclock_box {
+    background: white;    
+
+    /*background: rgba(202,216,192,1);
+    background: -moz-linear-gradient(left, rgba(202,216,192,1) 0%, rgba(61,117,16,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(202,216,192,1)), color-stop(100%, rgba(61,117,16,1)));
+    background: -webkit-linear-gradient(left, rgba(202,216,192,1) 0%, rgba(61,117,16,1) 100%);
+    background: -o-linear-gradient(left, rgba(202,216,192,1) 0%, rgba(61,117,16,1) 100%);
+    background: -ms-linear-gradient(left, rgba(202,216,192,1) 0%, rgba(61,117,16,1) 100%);
+    background: linear-gradient(to right, rgba(202,216,192,1) 0%, rgba(61,117,16,1) 100%);*/
+}
+.off { pointer-events: none; }
+td.dataTables_empty {
+    display: none;
+}
+input#anaFromDate {
+    color: black;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+input#anaToDate {
+    color: black;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+.file-tree {
+    color: #520000 !important;
+}
+.file-tree ol.tree li.file.selected>div {
+    color: #520000 !important; 
+    background: #000000 !important;
+    background-color: #edebeb !important; 
+}
+h3.box-title {
+    color: #5f5f5f;
+}
+p#today_date_time {
+    color: black;
+    font-size: 10px;
+    margin-bottom: 0;
+    text-align: -webkit-center;
+}
+p#number {
+    text-align: -webkit-center;
+}
+div#veh_count_meter {
+    /*background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);*/
+    /*background-image: linear-gradient( 135deg, #e3e3e3 10%, #383d6c00 100%);*/
+}
+div#amount_meter {
+    /*background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);*/
+    /*background-image: linear-gradient( 135deg, #e3e3e3 10%, #383d6c00 100%);*/
+}
+div#park_hrs_meter {
+    /*background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);*/
+    /*background-image: linear-gradient( 135deg, #e3e3e3 10%, #383d6c00 100%);*/
+}
+div#temp_meter {
+    /*background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);*/
+    /*background-image: linear-gradient( 135deg, #e3e3e3 10%, #383d6c00 100%);*/
+}
+.modal_box {
+    position: relative;
+    /* border-radius: 3px; */
+    background: #ffffff;
+    /*border-top: 2px solid #03a9f4;*/
+    margin-bottom: 20px;
+    /* width: 100%; */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.modal-content {    
+    background: white !important;
+}
+
+/* Cards css */
+.card-counter{
+    /*box-shadow: 2px 2px 10px #DADADA;*/
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+  }
+
+  .card-counter:hover{
+    /*box-shadow: 4px 4px 20px #DADADA;*/
+    transition: .3s linear all;
+  }
+
+  .card-counter.primary{
+    background-color: #007bff;
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #ef5350;
+    color: #FFF;
+  }  
+
+  .card-counter.success{
+    background-color: #66bb6a;
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #26c6da;
+    color: #FFF;
+  }  
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 32px;
+    display: block;
+  }
+
+  .card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+  }
+
+tspan {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 100;    
+    /*font-size: 16px;    */
+    text-align: left !important;
+}
+input#end_date_datepicker {
+    color: #595959;
+    border-color: #e7e7e7;
+}
+.modal-content {
+    border: none !important;
+    border-radius: 0 !important;
+}
+table.dataTable.no-footer {
+    border: none !important;
+}
+table.dataTable thead th {
+    border: none !important;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+    /* background-color: #2b2b2b; */
+    background-color: rgb(255, 255, 255);
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    /* background-color: #000000; */
+    background-color: rgba(0,0,0,.2);
+}
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    /* background-color: #2b2b2b; */
+    background-color: rgba(0,0,0,.2);
+}
+
+img.profi_pic.veh_img.veh_image, img#alpr_img, img#selectable-tree-img, img#alpr-modal-img {
+    height: 150px;
+}
+div#veh_count_meter svg {
+    height: 100px;
+}
+div#amount_meter svg {
+    height: 100px;
+}
+div#park_hrs_meter svg {
+    height: 100px;
+}
+div#alpr_data_tbl_wrapper {
+    padding: 10px;
+}

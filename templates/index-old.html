@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automatic License Plate Recognition</title>
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <!-- http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css -->
+  <link href="static/dist/css/file-tree.min.css" rel="stylesheet">
+  <link href="static/css/anpr.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/jquery-ui.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link href="static/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <!-- Clock CSS -->
+  <link href="static/css/style-clock.css" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/cropper.css">
+  <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/cropper.min.css">
+  <link rel="stylesheet" href="static/css/croper-main.css">
+
+  <!-- Zoom plugin css -->
+  <link rel="stylesheet" href="static/xzoom/static/xzoom/css/normalize.css" />
+  <link rel="stylesheet" href="static/xzoom/css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="static/xzoom/css/xzoom.css" media="all" />
+  <!-- end of zoom plugin css-->    
+
+  <style type="text/css">
+      
+
+    </style>
+  </head>
+  <body>
+
+    <!-- <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          Automatic License Plate Recognition
+        </div>
+      </div>
+    </nav> -->
+
+    <div class="navbar navbar-custom"></div>
+    <ul class="nav nav-tabs nav-justified">
+      <li class="active"><a data-toggle="tab" href="#demo">Automatic License Plate Recognition</a></li>
+      <li><a data-toggle="tab" href="#analytics">Analytics</a></li>
+      <li><a data-toggle="tab" href="#gallery">Gallery</a></li>                
+    </ul>
+    <div class="tab-content">
+      <div id="demo" class="container tab-pane fade in active col-sm-12">
+        <div class="row">
+          <div class="col-sm-4 selectable-tree-col">
+            <div class="top-left-selectable-tree">Images Directory</div>
+            <div id="selectable-tree"></div>
+            <div>
+            	<div class="row">
+            		<div class="col-sm-8">
+            			<textarea id="selectable-tree-output" rows="5" class="form-control" disabled></textarea>		
+            		</div>
+            		<div class="col-sm-4" id="selectable-tree-output-thumb">
+            			<img src="" id="selectable-tree-output-thumbnail" class="selectable-tree-output-thumbnail">		
+            		</div>
+            	</div>
+            	<!-- <img src="" id="selectable-tree-output-thumbnail" class="selectable-tree-output-thumbnail"> -->
+              	<!-- <textarea id="selectable-tree-output" rows="5" class="form-control" disabled></textarea>	 -->
+              <!-- Clock div -->
+              <!-- <div class="col-md-4"> -->
+              <!-- <div id="chartContainer" style="height: 235px; width: 385px; margin-left: -15px;"></div> -->
+
+                          <!-- <div id="clock" class="dark">
+                              <div class="display">
+                                  <div class="weekdays"></div>
+                                  <div class="ampm"></div>
+                                  <div class="alarm"></div>
+                                  <div class="digits"></div>
+                              </div>
+                            </div> -->
+                            <!-- </div> -->
+                            <!-- End of clock div -->
+                          </div>
+
+                        </div>
+                        <div class="col-sm-6" id="vah_images">   
+                          <div class="row">
+                            <div class="top-left-video">Livefeed from camera
+                              <button id="livefeedreplay" class="livefeedreplay btn btn-primary">Replay</button>
+                            </div>          
+                            <img src="" height="300px" width="97.5%" id="livefeed" class="camlivefeed" data-toggle="modal" data-target="#myZoomModal">
+                          </div><br>
+                          <div class="row"> 
+                            <div class="col-sm-6">        
+                              <div class="" id="crop-avatar">
+                                <!-- Current avatar -->
+                                <div class="avatar-view" title="Click to Investigation">
+                                  <div class="bottom-left">Vehicle Image</div>
+                                  <img src="" height="190px" width="276px" id="veh-original-img">
+                                </div>
+
+                                <!-- Cropping modal -->
+                                <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
+                                  <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                      <form class="avatar-form" action="crop.php" enctype="multipart/form-data" method="post">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button><br>
+                                          <!-- <h4 class="modal-title" id="avatar-modal-label">Change Avatar</h4> -->
+                                        </div>
+                                        <div class="modal-body">
+                                          <div class="avatar-body">
+
+                                            <!-- Upload image and data -->
+                                            <div class="avatar-upload">
+                                              <input type="hidden" class="avatar-src" name="avatar_src">
+                                              <input type="hidden" class="avatar-data" name="avatar_data">
+                                              <label for="avatarInput">Upload File's (jpg,png)</label>
+                                              <input type="file" class="avatar-input" id="avatarInput" name="avatar_file">
+                                            </div>
+
+                                            <!-- Crop and preview -->
+                                            <div class="row">
+                                              <div class="col-md-9">
+                                                <div class="avatar-wrapper"></div>
+                                              </div>
+                                              <div class="col-md-3">
+                                                <div class="avatar-preview preview-lg"></div>
+                                                <div class="avatar-preview preview-md"></div>
+                                                <div class="avatar-preview preview-sm"></div>
+                                              </div>
+                                            </div>
+
+                                            <div class="row avatar-btns">
+                                              <div class="col-md-9">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="-90" title="Rotate -90 degrees">Rotate Left</button>
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="-15">-15deg</button>
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="-30">-30deg</button>
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="-45">-45deg</button>
+                                                </div>
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="90" title="Rotate 90 degrees">Rotate Right</button>
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="15">15deg</button>
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="30">30deg</button>
+                                                  <button type="button" class="btn btn-primary" data-method="rotate" data-option="45">45deg</button>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-3">
+                                                <!-- <button type="submit" class="btn btn-primary btn-block avatar-save">Done</button> -->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div> -->
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div><!-- /.modal -->
+
+                                <!-- Loading state -->
+                                <div class="loading" aria-label="Loading" role="img" tabindex="-1"></div>
+                              </div>
+
+                              <!-- <img src="" height="190px" width="250px" id="veh-original-img"> -->
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="top-left">ALPR Image</div>  
+                              <img src="" id="selectable-tree-img" class="livefeed" data-toggle="modal" data-target="#myModal" width="276px" height="190px"/>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-2" id="data-div">
+
+                          <!-- <span id="veh_num" class="veh_num"></span><br> -->
+                          <img src="" height="50px" width="100px" id="veh-num-img">
+                          <div class="row"> 
+                            <span id="number" class="number"></span><br>
+                            <span id="date" class="date"></span><br>
+                            <span id="time" class="time"></span><br>
+                            <img src="" height="130px" width="160px" id="veh-qrcode-img" align="middle">                    
+                          </div>
+                        </div>
+                        <button onclick='printDiv("data-div")' class="btn btn-primary" id="print-slip" class="print-slip">
+                          <i class="fa fa-print fa-1" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print</button><br><br>            
+                          <div class="GaugeMeter" id="PreviewGaugeMeter_2" data-percent="0" data-append="" data-size="200" data-theme="White" data-back="RGBa(0,0,0,.1)" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="15" data-label="Vehicle Count" data-style="Arch" data-label_color="#FFF" style="width: 190px !important;height: 190px;">
+
+                          </div>
+                        </div>
+                        <div class="row">
+
+                          <div class="col-md-12">
+                            <!-- <div id="tbldatadiv">
+                              <div id="showData" class="showData"></div>
+                            </div> -->                    
+
+                            <div class="col-md-12 well well-sm div-border cur-data-tbl-div">
+                              <table id="alpr_current_date_data_table" class="alpr_current_date_data_table table" style="width:100%">
+                                <thead>
+                                  <tr>
+                                    <th>ALPR ID</th>
+                                    <th>Number Plate</th>
+                                    <th>Vehicle Image</th>
+                                    <th>QRCode</th>
+                                    <th>Start Date Time</th>
+                                    <th>End Date Time</th>
+                                    <th>Parking Hours</th>
+                                    <th>Total Cost</th>                                
+                                  </tr>
+                                </thead>
+                              </table>
+                            </div>
+
+
+                            <!-- <input id="btn-Preview-Image" type="button" value="Preview"/> -->
+                            <!-- <a id="btn-Convert-Html2Image" href="#">Download</a> -->
+                            <!-- <h3>Preview :</h3> -->
+                            <!-- <div id="previewImage"></div> -->
+
+                            <!-- Div to export data -->
+                          <div>                   
+                            <p id="dataxportpapa">Date: <input type="text" id="datepicker_1" class="btn btn-primary" value="">
+                              <button id="btngetCurrentdata" class="btn btn-primary">Get Data</button>
+                            <!-- <input type="button" class="btn btn-primary" onclick="tableToExcel('dataTable', 'Rainfall Report')" value="Export" id="export" name="export" class="export" /> -->
+                            <!-- <input type="button" class="btn btn-primary" onclick="generatePDFfromtable()" value="Export PDF" id="export" name="export" class="export" /> -->
+                            </p>                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Alnalytics Div -->
+                    <div id="analytics" class="tab-pane fade col-sm-12  panel-primary">
+                      <div><br></div>
+                      <!-- Dashboard for analytics -->
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="col-md-4">
+                            <div class="GaugeMeter records_count" id="total_records" data-percent="" data-append="" data-size="180" data-theme="White" data-back="RGBa(0,0,0,.1)" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="15" data-label="Records" data-label_color="#FFF" data-stripe="2"></div>
+
+                          </div>
+                          <div class="col-md-4">                            
+                            <div class="GaugeMeter total_cost" id="total_cost" data-percent="" data-append="" data-size="180" data-theme="White" data-back="RGBa(0,0,0,.1)" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="15" data-label="Total Cost in Rs." data-label_color="#FFF" data-stripe="2"></div>
+
+                          </div>
+                          <div class="col-md-4">                           
+                            <div class="GaugeMeter total_park_hours" id="total_park_hours" data-percent="" data-append="" data-size="180" data-theme="White" data-back="RGBa(0,0,0,.1)" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="15" data-label="Total Hours" data-label_color="#FFF" data-stripe="2"></div>
+
+                          </div>                                                                             
+                        </div>
+                      </div><br>                      
+
+                      <div class="col-lg-12 analytics-data-div">                        
+                        <div>                   
+                          <p id="dataxportpapa">Date: <input type="text" id="datepicker" class="btn btn-primary" value="">
+                            <button id="btngetdata" class="btn btn-primary">Get Data</button>                            
+                            From Date: <input type="text" id="from_datepicker" class="btn btn-primary" value="">
+                            To Date: <input type="text" id="to_datepicker" class="btn btn-primary" value="">
+                            <button id="btngetdatabtwndates" class="btn btn-primary">Get Data</button>
+                            <!-- <input type="button" class="btn btn-primary" onclick="generatePDFfromtable()" value="Export PDF" id="export" name="export" class="export" /> -->
+                          </p>
+                          <p id="dataxportpapa">
+                            <button id="export" class="btn btn-primary">Export Image</button>
+                            <input type="button" class="btn btn-primary" onclick="tableToExcel('alpr_data_table', 'ALPR Report')" value="Export CSV" id="export" name="export" class="export" />
+                            <!-- <input type="button" class="btn btn-primary" onclick="generatePDFfromtable()" value="Export PDF" id="export" name="export" class="export" /> -->
+                          </p>                        
+                        </div>
+                        <div class="col-md-12 well well-sm div-border data-tbl-div">
+                          <table id="alpr_data_table" class="alpr_data_table table" style="width:100%">
+                            <thead>
+                              <tr>
+                                <th>ALPR ID</th>
+                                <th>Number Plate</th>
+                                <th>Vehicle Image</th>
+                                <th>QRCode</th>
+                                <th>Start Date Time</th>
+                                <th>End Date Time</th>
+                                <th>Parking Hours</th>
+                                <th>Total Cost</th>                                
+                              </tr>
+                            </thead>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of analytics div -->
+
+                    <!-- Gallery Div -->
+                    <div id="gallery" class="tab-pane fade col-sm-12  panel-primary">
+                      <div><br></div>
+                      <div class="col-sm-4 selectable-tree-col-gallery">
+                          <div class="top-left-selectable-tree">Images Directory</div>
+                          <div id="selectable-tree-gallery"></div>
+                          <div>
+                            <!-- <button class="btn btn-primary" id="btn_refreshfiletree"> Refresh</button> -->
+                          </div>
+                      </div>
+                      <div class="col-sm-8">
+                        <img src="" class="selected-img-gallery" id="selected-img-gallery" height="400px" width="97.5%"/>
+                      </div>
+                      <!-- Dashboard for analytics -->                      
+                    </div>
+                    <!-- End of Gallery div -->
+                  </div>
+                </div>
+
+                <!-- Modal window for number plate recognition image on ALPR-->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>        
+                      </div>
+                      <div class="modal-body">
+                        <img src="" id="alpr-modal-img" class="alpr-modal-img" width="350px" height="250px"/><br>
+                        <div id="cropped_result" width="150px" height="150px"></div>        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" id="crop-alpr-image" class="btn btn-primary" onclick='cropimage()'>Crop</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="cancelCrop()">Close</button>
+                        <button type="button" id="save-cropped-image" class="btn btn-primary" >Apply</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of modal window for number plate recognition image on ALPR-->
+
+                <!-- Modal window for zooming Live feed-->
+                <div class="modal fade" id="myZoomModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>        
+                      </div>
+                      <div class="modal-zoom-body">
+                        <img src="" id="alpr-modal-img" class="camlivefeed" width="100%" height="100%"/><br>        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="cancelCrop()">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of modal window for zooming live feed-->
+
+                <!-- Modal for TR data -->
+                <div class="modal fade" id="myTrDataModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog alpr-data-model" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>        
+                      </div>
+                      <div class="modal-zoom-body alpr_modal_body">
+                        <div class="row">
+                          <div class="col-md-6">
+
+                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                              <div class="thumbnail bootsnipp-thumb">                  
+                                <div style="overflow: hidden; position: relative; height: 205.5px;">
+                                  <img src="" id="alpr_veh_image" class="img-rounded" width="100%" height="100%"/>
+                                </div>                  
+                              </div>
+                            </div>
+
+
+                            <!-- <img src="" id="alpr_veh_image" class="" width="100%" height="25%"/> -->
+                            <img src="" id="alpr_qrcode_image" class="" width="35%" height="25%"/>
+                            <img src="" id="alpr_image" class="" width="55%" height="100px"/>                            
+                          </div>
+                          <div class="col-md-6 alpr-modal-p-div">
+                            <p>ALPR ID  </p><p id="alpr-id"></p>
+                            <p>Start Date Time  </p><p id="alpr-startdatetime"></p>
+                            <p>End Date Time  </p>
+                            <input type="text" id="end_date_datepicker" class="alpr-enddatetime btn btn-primary" value=""><br><br>
+                            <!-- <p id="alpr-enddatetime"></p> -->
+                            <p>Parking Hours  </p><p id="alpr-parking-hours"></p>
+                            <p>Total Cost  </p><p id="alpr-total-cost"></p>
+                          </div>            
+                        </div>          
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="update_alpr_record" class="update_alpr_record" >Update</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="cancelCrop()">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of modal window for TR data -->
+
+                <script src="static/js/jquery.min.js"></script> 
+                <script src="static/js/jquery-ui.min.js"></script> 
+                <script src="static/js/bootstrap.min.js"></script> 
+                <script src="static/bower_components/nestedSortable/jquery.mjs.nestedSortable.js"></script> 
+                <script src="static/dist/js/file-tree.min.js"></script> 
+                <script type="text/javascript" src="static/js/canvasjs.min.js"></script>
+
+                <script src="static/js/jspdf.js"></script>
+                <script src="static/js/FileSaver.js"></script>
+                <script src="static/js/jspdf.plugin.table.js"></script>
+
+                <!-- <script src="static/js/html2canvas.js"></script> -->
+                <!-- Gauge Meter JS -->
+                <script src="static/js/jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script>
+                <!-- Clock JS -->
+                <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+                <script src="static/js/moment.min.js"></script>
+                <script src="static/js/script-clock.js"></script>
+                <script src="static/js/cropper.js"></script>
+
+                <script src="static/js/cropper.min.js"></script>
+                <script src="static/js/croper-main.js"></script>
+
+                <script src="static/xzoom/js/vendor/modernizr.js"></script>
+                <script type="text/javascript" src="static/xzoom/xzoom.min.js"></script>
+                <script src="static/xzoom/js/setup.js"></script>
+
+                <script src="https://files.codepedia.info/files/uploads/iScripts/html2canvas.js"></script>
+
+                <!-- Script to get ALPR table data -->
+                <script>
+
+
+function createAnalyticsTable(date, from_date, to_date, flag) {
+
+  $.ajax({
+    url: 'http://127.0.0.1:5000/getalprsqltabledata?date='+date+"&fromdate="+from_date+"&todate="+to_date,                
+    type: 'POST',
+    success: function(response){
+      // $("#alpr_data_table tbody").empty();
+      // $("#alpr_current_date_data_table tbody").empty();                    
+      var resp = response;
+      var obj = JSON.parse(resp);                    
+
+      var data_table = JSON.parse(obj.tabledata);
+
+      var rows_count = obj.rowcount;
+      var total_cost = obj.totalcost;
+      var total_park_hours = obj.totalparkhours;
+
+      console.log(data_table);
+      if(flag==='CURRENT'){
+        $.each(data_table, function(i, value){                      
+          $("#alpr_current_date_data_table").append("<tr class='alpr-data-tr' id='alpr-data-tr' data-toggle='modal' data-target='#myTrDataModal' ><td>"+value.ALPR_ID+"</td><td><img src="+value.ALPR_IMG+" height='50px' width='100px'></td><td><img src='"+value.VEHICLE_IMG+"' height='50px' width='100px'></td><td><img src='"+value.QRCODE_IMG+"' height='50px' width='50px'></td><td>"+value.STARTDATETIME+"</td><td>"+value.ENDDATATIME+"</td><td>"+value.PARKING_HOURS+"</td><td>"+value.TOTAL_COST+"</td></tr>");
+        });
+      }else{        
+        $.each(data_table, function(i, value){                      
+          $("#alpr_data_table").append("<tr class='alpr-data-tr' id='alpr-data-tr' data-toggle='modal' data-target='#myTrDataModal' ><td>"+value.ALPR_ID+"</td><td><img src="+value.ALPR_IMG+" height='50px' width='100px'></td><td><img src='"+value.VEHICLE_IMG+"' height='50px' width='100px'></td><td><img src='"+value.QRCODE_IMG+"' height='50px' width='50px'></td><td>"+value.STARTDATETIME+"</td><td>"+value.ENDDATATIME+"</td><td>"+value.PARKING_HOURS+"</td><td>"+value.TOTAL_COST+"</td></tr>");
+        });
+        console.log(rows_count);
+        changeGuageMeterTotalRecords(rows_count);
+        changeGuageMeterTotalCost(total_cost);
+        changeGuageMeterTotalParkHours(total_park_hours);
+      }      
+    },
+    error: function(error){
+      console.log(error);
+    }
+  });
+  $('#end_date_datepicker').datepicker();
+}
+    $(function () {
+      var currDateObj = $('#datepicker_1').datepicker();
+      $("#btngetCurrentdata").click(function() {
+        console.log("Clicked gat data");          
+        var date = $("#datepicker_1").datepicker("getDate");
+        console.log(date);
+        var folderdate = $.datepicker.formatDate("yy-mm-dd", date);
+        console.log(folderdate);
+        createAnalyticsTable(folderdate, null, null, 'CURRENT');
+      });
+    });
+    //  Latest function to get ALPR analytics tab data for selected date
+    $( function() {
+      var dateObject = $("#datepicker").datepicker();                
+      //selecting the button and adding a click event
+      $("#btngetdata").click(function() {
+        console.log("Clicked gat data");          
+        //alerting the value inside the textbox
+        var date = $("#datepicker").datepicker("getDate");
+        console.log(date);
+        var folderdate = $.datepicker.formatDate("yy-mm-dd", date);
+        createAnalyticsTable(folderdate, null, null, null);
+      });       
+    });
+    // function to get data between date's
+    $(function () {      
+      $('#btngetdatabtwndates').click(function () {
+        console.log("Clicked between dates");
+        var from_date = $("#from_datepicker").datepicker("getDate");
+        var to_date = $("#to_datepicker").datepicker("getDate");
+        
+        var from_dt = $.datepicker.formatDate("yy-mm-dd", from_date);
+        var to_dt = $.datepicker.formatDate("yy-mm-dd", to_date);
+
+        createAnalyticsTable(null, from_dt, to_dt, null);
+      })
+    });
+    </script>
+    <!-- End of get ALPR table data -->
+
+    <script type="text/javascript">
+    // function for dialogue box in ALPR tab
+    $(function () {
+      $("#alpr_current_date_data_table").on('click','tr',function() {
+        var alpr_modal_data = [];      
+        var tableData = $(this).children("td").map(function() {        
+          if ($(this).find('img')){
+            var alpr_img = $(this).find('img').attr('src');
+            alpr_modal_data.push(alpr_img);
+          }
+          if($(this).text()){
+            alpr_modal_data.push($(this).text());                        
+          }
+          return alpr_modal_data;
+        }).get();
+        console.log(alpr_modal_data);
+        $('#alpr-id').text($.trim(tableData[1]));
+        $('#alpr-startdatetime').text($.trim(tableData[6]));
+        // $('#alpr-enddatetime').text($.trim(tableData[8]));
+        $('.alpr-enddatetime').val($.trim(tableData[8]));
+        $('#alpr-parking-hours').text($.trim(tableData[10]));
+        $('#alpr-total-cost').text($.trim(tableData[12]));
+        $('#alpr_image').attr('src', $.trim(tableData[2]));
+        $('#alpr_veh_image').attr('src', $.trim(tableData[3]));
+        $('#alpr_qrcode_image').attr('src', $.trim(tableData[4]));
+
+        console.log("Your data is: " + $.trim(tableData[0]) + " , " + $.trim(tableData[1]) + " , " + $.trim(tableData[2]));
+      });
+    });
+
+    // function for dialogue box in analytics tab
+    $(function () {
+      $("#alpr_data_table").on('click','tr',function() {
+        var alpr_modal_data = [];      
+        var tableData = $(this).children("td").map(function() {        
+          if ($(this).find('img')){
+            var alpr_img = $(this).find('img').attr('src');
+            alpr_modal_data.push(alpr_img);
+          }
+          if($(this).text()){
+            alpr_modal_data.push($(this).text());                        
+          }
+          return alpr_modal_data;
+        }).get();
+        console.log(alpr_modal_data);
+        $('#alpr-id').text($.trim(tableData[1]));
+        $('#alpr-startdatetime').text($.trim(tableData[6]));
+        // $('#alpr-enddatetime').text($.trim(tableData[8]));
+        $('.alpr-enddatetime').val($.trim(tableData[8]));
+        $('#alpr-parking-hours').text($.trim(tableData[10]));
+        $('#alpr-total-cost').text($.trim(tableData[12]));
+        $('#alpr_image').attr('src', $.trim(tableData[2]));
+        $('#alpr_veh_image').attr('src', $.trim(tableData[3]));
+        $('#alpr_qrcode_image').attr('src', $.trim(tableData[4]));
+
+        console.log("Your data is: " + $.trim(tableData[0]) + " , " + $.trim(tableData[1]) + " , " + $.trim(tableData[2]));
+      });
+    });  
+</script>
+<!-- Exporting table data to image and pdf -->
+<script type="text/javascript">
+
+  function generatePDFfromtable() {
+    var data = [], fontSize = 12, height = 0, doc;
+    doc = new jsPDF('p', 'pt', 'a4', true);
+    doc.setFont("times", "normal");
+    doc.setFontSize(fontSize);
+    doc.text(20, 20, "hi table");
+    data = [];
+    data = doc.tableToJson('alpr_data_table');
+    height = doc.drawTable(data, {
+      xstart : 10,
+      ystart : 10,
+      tablestart : 40,
+      marginleft : 10,
+      xOffset : 10,
+      yOffset : 15
+    });
+      // doc.text(50, height + 20, 'hi world');
+      doc.save("numberplatesdata.pdf");
+  }
+
+  function refreshimage(node)
+  {
+       var times = 3000; // gap in Milli Seconds;
+       (function startRefresh()
+       {
+        var address;
+        if(node.src.indexOf('?')>-1)
+         address = node.src.split('?')[0];
+       else 
+         address = node.src;
+       node.src = address+"?time="+new Date().getTime();
+          //setTimeout(startRefresh,times);
+        })();
+      }
+      function printDiv(divID) {
+        //Get the HTML of div
+        var divElements = document.getElementById(divID).innerHTML;
+        //Get the HTML of whole page
+        var oldPage = document.body.innerHTML;
+        //Reset the page's HTML with div's HTML only
+        document.body.innerHTML = "<html><head><title></title></head><body>"+divElements+"</body>";
+        //Print Page
+        window.print();
+        //Restore orignal HTML
+        document.body.innerHTML = oldPage;     
+      }
+
+      function changePercent(percent)
+      {
+        $(".GaugeMeter").data("percent",percent);
+        $(".GaugeMeter").empty();
+        $(".GaugeMeter").gaugeMeter();
+      }    
+
+      //  Function to get gallery data.
+      function getGalleryData() {
+        try{
+          var data = [{
+            id: 'dir-1',
+            name: 'Root',
+            type: 'dir',
+            children: {{fileslist | safe}}
+          }];
+          // To display in Gallery
+          var selectableTreeGallery = $('#selectable-tree-gallery').fileTree({
+            data: data,
+            selectable: true
+          });
+
+          // To display list of files in Gallery tab
+          selectableTreeGallery.bind('itemSelected', function(e, el){
+            var output = 'Selected item:' + "\n";
+            //output += 'ID: ' + $(el).data('id') + "\n";
+            output += 'Name: ' + $(el).data('name') + "\n";
+            output += 'Type: ' + $(el).data('type');
+            var filetype = $(el).data('type');
+            var imgsrc = $(el).data('id');
+            console.log(imgsrc);
+
+            $('.selected-img-gallery').attr('src', imgsrc);
+            var node = document.getElementById('selected-img-gallery');
+            refreshimage(node);
+            var substr = 'file';
+          });
+        }catch(err){
+          console.log('{ Error in getGalleryData function }  '+err);
+        }
+      }
+      $('#btn_refreshfiletree').click(function () {
+        $('#selectable-tree-gallery').empty(); 
+        console.log("Clicked on Gallery file tree");
+        $.ajax({
+          url: 'http://127.0.0.1:5000/anpr',                
+          type: 'GET',
+          success: function(response){                                
+            console.log(response);  
+          },
+          error: function(error){
+            console.log(error);
+          }
+        });
+        // getGalleryData();        
+      });
+      $(document).ready(function(){
+        $('.camlivefeed').attr('src', "{{ url_for('anprfromcam', camera=['static/videos/alpr-feed.mp4']) }}");
+
+        $(".GaugeMeter").gaugeMeter();
+        $('#from_datepicker').datepicker();
+        $('#to_datepicker').datepicker();
+        
+        var data = [{
+          id: 'dir-1',
+          name: 'Root',
+          type: 'dir',
+          children: {{fileslist | safe}}
+        }];
+        $('#fixed-tree').fileTree({
+          data: data
+        });
+        var selectableTree = $('#selectable-tree').fileTree({
+          data: data,
+          selectable: true
+        });
+        // Function call to get gallery data
+        getGalleryData();
+        // To diaplst files in ALPR tab
+        selectableTree.bind('itemSelected', function(e, el){
+          var output = 'Selected item:' + "\n";
+          //output += 'ID: ' + $(el).data('id') + "\n";
+          output += 'Name: ' + $(el).data('name') + "\n";
+          output += 'Type: ' + $(el).data('type');
+          var filetype = $(el).data('type');
+          var imgsrc = $(el).data('id');
+
+          $('#selectable-tree-img').attr('src', imgsrc);
+          $('#veh-original-img').attr('src', imgsrc);
+          $('#selectable-tree-output').val(output);
+          $('#selectable-tree-output-thumbnail').attr('src', imgsrc);
+
+          var substr = 'file';
+          if(filetype.indexOf(substr)!=-1){
+            var currentdate = new Date(); 
+            var date = "Date : " + currentdate.getDate() + "/"
+            + (currentdate.getMonth()+1)  + "/" 
+            + currentdate.getFullYear();
+            var time = "Time : " + currentdate.getHours() + ":"  
+            + currentdate.getMinutes() + ":" 
+            + currentdate.getSeconds();
+            $.ajax({
+              url: 'http://127.0.0.1:5000/anprprocess?image='+imgsrc,                
+              type: 'POST',
+              success: function(response){                    
+                var resp = response;
+                var obj = JSON.parse(resp);
+                vehNum = JSON.parse(obj.data);
+                console.log(obj);
+                $('#number').text("Number : "+vehNum.number);
+                $('#date').text(date);
+                $('#time').text(time);
+                $('#veh-num-img').prop('src', vehNum.numberplate);
+                $('#selectable-tree-img').attr('src', vehNum.numplatedetectimg);
+                $('#alpr-modal-img').attr('src', vehNum.numplatedetectimg);
+                $('#veh-qrcode-img').attr('src', vehNum.qrcode);
+                  //$('#livefeed').attr('src', '/videofeed');
+                  var node = document.getElementById('selectable-tree-img');
+                  refreshimage(node);
+                  var node1 = document.getElementById('alpr-modal-img');
+                  refreshimage(node1);
+                  $('.alpr-modal-img').cropper('destroy');
+                  // cropimage(vehNum.numplatedetectimg);
+                  // drawchart(obj.qrcount, obj.vehcount, obj.date);
+                  // CreateTableFromJSON(obj.tabledata);
+                  // Creation of table with current date date
+                  var d = new Date();
+                  var month = d.getMonth()+1;
+                  var day = d.getDate();
+                  var current_date = d.getFullYear() + '-' +
+                      ((''+month).length<2 ? '0' : '') + month + '-' +
+                      ((''+day).length<2 ? '0' : '') + day;                  
+                  createAnalyticsTable(current_date, null, null, 'CURRENT');
+                  changePercent(obj.vehcount);                        
+                },
+                error: function(error){
+                  console.log(error);
+                }
+              });
+            }
+          });
+});
+
+// Exporting Table data to .csv file
+var tableToExcel = (function () {
+  var uri = 'data:application/vnd.ms-excel;base64,'
+  , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>'
+  , base64 = function (s) { return window.btoa(unescape(encodeURIComponent(s))) }
+  , format = function (s, c) { return s.replace(/{(\w+)}/g, function (m, p) { return c[p]; }) }
+  return function (table, name) {
+    if (!table.nodeType) table = document.getElementById(table)
+      var ctx = { worksheet: name || 'Worksheet', table: table.innerHTML }
+    window.location.href = uri + base64(format(template, ctx))
+  }
+})()
+</script>
+
+<!-- JS  function to create table with json data -->
+<script>
+function CreateTableFromJSON(message){
+  var myBooks = message;
+        // EXTRACT VALUE FOR HTML HEADER. 
+        // ('Book ID', 'Book Name', 'Category' and 'Price')
+        var col = [];
+        for (var i = 0; i < myBooks.length; i++) {
+          for (var key in myBooks[i]) {
+            if (col.indexOf(key) === -1) {
+              col.push(key);
+            }
+          }
+        }
+        // CREATE DYNAMIC TABLE.
+        var table = document.createElement("table");
+        table.border = "1";
+        table.id = "dataTable";
+        table.className = "dataTable";
+        table.rules = "groups";
+        table.frame = "hsides";
+        // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+        var tr = table.insertRow(-1);                   // TABLE ROW.
+        for (var i = 0; i < col.length; i++) {
+            var th = document.createElement("th");      // TABLE HEADER.
+            th.innerHTML = col[i];
+            tr.appendChild(th);
+          }
+        // ADD JSON DATA TO THE TABLE AS ROWS.
+        for (var i = 0; i < myBooks.length; i++) {
+          tr = table.insertRow(-1);
+          for (var j = 0; j < col.length; j++) {
+            var tabCell = tr.insertCell(-1);
+            tabCell.innerHTML = myBooks[i][col[j]];
+          }
+        }
+        // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+        var divContainer = document.getElementById("showData");
+        divContainer.innerHTML = "";
+        divContainer.appendChild(table);
+      }
+
+      function cropimage(){
+        var image = $('.modal-body>img');      
+        image.cropper('destroy');
+        var cropper = image.cropper({
+          aspectRatio: 16 / 9,
+          crop: function(e) {
+            console.log(e.x);
+            console.log(e.y);
+            console.log(e.width);
+            console.log(e.height);
+            console.log(e.rotate);
+            console.log(e.scaleX);
+            console.log(e.scaleY);
+          }
+        });
+      // End of cropper on modal window
+      // On crop button clicked
+      document.getElementById('save-cropped-image').addEventListener('click', function(){
+        image.cropper('getCroppedCanvas').toBlob(function (blob) {
+          var formData = new FormData();
+          var img = document.createElement("img");
+          $('#cropped_result').empty();
+          $('#cropped_result > img').addClass('croppedimage');
+            // converting blob to base64string
+            var reader = new window.FileReader();
+            reader.readAsDataURL(blob);            
+            reader.onloadend = function() {
+              base64data = reader.result;                
+              img.src = base64data;
+              document.getElementById("cropped_result").appendChild(img);
+            }              
+          });          
+      })
+    }
+
+    function cancelCrop(){
+      var image = $('.modal-body>img');      
+      image.cropper('destroy');
+    }
+    $('#livefeedreplay').click(function(){
+      var livefeedurl = $("#livefeed").attr('src');
+      $( "#livefeed" ).attr("src",livefeedurl);
+    });
+    </script>
+
+    <script type="text/javascript">
+    $(function () {
+      /* BOOTSNIPP FULLSCREEN FIX */
+      if (window.location == window.parent.location) {
+        $('#back-to-bootsnipp').removeClass('hide');
+        $('.alert').addClass('hide');
+      } 
+
+      $('#fullscreen').on('click', function(event) {
+        event.preventDefault();
+        window.parent.location = "http://bootsnipp.com/iframe/Q60Oj";
+      });
+
+      $('#showData > tbody > tr').on('click', function(event) {
+        event.preventDefault();
+        $('#myTrModal').modal('show');
+      })
+
+      $('.btn-mais-info').on('click', function(event) {
+        $( '.open_info' ).toggleClass( "hide" );
+      })
+
+
+    });
+    </script>
+    <!-- Script to export table as Image -->
+    <script type="text/javascript">
+    $('#export').on('click', function() {
+      console.log('exporting');
+        //$('#preview-table').tableExport({type:'png',escape:'false'});
+        html2canvas($('#alpr_data_table'), {
+          onrendered: function(canvas) {                    
+            var img = canvas.toDataURL("image/png");
+            //var img = canvas.toDataURL("application/octet-stream");
+            
+            function saveAs(uri, filename) {
+              var link = document.createElement('a');
+              if (typeof link.download === 'string') {
+                    document.body.appendChild(link); // Firefox requires the link to be in the body
+                    link.download = filename;
+                    link.href = uri;
+                    link.click();
+                    document.body.removeChild(link); // remove the link when done
+                  } else {
+                    location.replace(uri);
+                  }
+                }
+
+                var uri = img.replace(/^data:image\/[^;]/, 'data:application/octet-stream');
+            //window.open(url);
+            saveAs(uri, 'tableExport.png');
+            
+            
+          }
+        }); 
+});
+
+// Analytics gauge meter function's
+function changeGuageMeterTotalRecords(percent)
+{
+  $(".records_count").data("percent",percent);
+  $(".records_count").empty();
+  $(".records_count").gaugeMeter();
+}
+function changeGuageMeterTotalCost(percent)
+{
+  $(".total_cost").data("percent",percent);
+  $(".total_cost").empty();
+  $(".total_cost").gaugeMeter();
+}
+function changeGuageMeterTotalParkHours(percent)
+{
+  $(".total_park_hours").data("percent",percent);
+  $(".total_park_hours").empty();
+  $(".total_park_hours").gaugeMeter();
+} 
+
+// Updation of ALPR record
+$('#update_alpr_record').click(function() {
+  var ALPR_ID = $('#alpr-id').text();
+  var STARTDATETIME = $('#alpr-startdatetime').text();
+  var ENDDATATIME = $("#end_date_datepicker").datepicker("getDate");
+  ENDDATATIME = $.datepicker.formatDate("yy-mm-dd", ENDDATATIME);    
+  var d = new Date(),
+  hrs = (d.getHours()<10?'0':'') + d.getHours(),
+  min = (d.getMinutes()<10?'0':'') + d.getMinutes();
+  var hrs_min = hrs + ':' + min;
+  ENDDATATIME = ENDDATATIME+" "+hrs_min;     
+  $.ajax({
+    url: 'http://127.0.0.1:5000/updatealprdata?alprid='+ALPR_ID+"&startdatetime="+STARTDATETIME+"&enddatetime="+ENDDATATIME,                
+    type: 'POST',
+    success: function(response){                             
+      var resp = response;
+      console.log(resp);          
+    },
+    error: function(error){
+      console.log(error);
+    }
+  });
+});
+
+
+
+</script>
+<!-- End of script to export as image -->
+<style type="text/css">
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+tbody > tr {
+  cursor: pointer;
+}
+
+.result{
+  margin-top:20px;
+}
+</style>
+</body>
+</html>
+<footer>Automatic Number Plate Recognition copy right@Bala Chander</footer>

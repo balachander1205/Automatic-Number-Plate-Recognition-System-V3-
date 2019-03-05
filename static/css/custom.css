@@ -1,0 +1,174 @@
+.div-border{
+border: none;
+/*height: 100px;*/
+overflow: hidden;
+}
+.mail_body_wrap{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+/*padding-left: 26px;*/
+}
+p.email-subject {
+margin-left: 29px;
+}
+
+p.email-body {
+margin-left: 29px;
+}
+.ksdma-logo-1{
+height: 100px;
+width: 100px;
+float: left;
+}
+.ksdma-logo-2{
+height: 100px;
+width: 100px;
+float: right;
+}
+#showData, #showAlohaData, #showLandslideData{
+/*overflow: scroll;
+height: 333px;*/
+}
+table{
+/*background-color: gray;*/
+}
+th {
+text-align: center;
+background-color: #163255;
+color: white;
+border: solid #eee;
+border-width: 0 1px 1px 0;
+padding: 2px .35em;
+}
+tr {
+text-align: center;
+}
+td{
+border: solid #eee;
+border-width: 0 1px 1px 0;
+padding: 2px .35em;
+padding-left: 10px;
+padding-right: 11px;
+padding-top: 5px;
+}
+td {
+color: black;
+}
+tr:nth-child(even) {
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+ul.nav.nav-tabs.nav-justified {
+background-color: blanchedalmond;
+}
+a.canvasjs-chart-credit {
+display: none;
+}
+h2.heading {
+font-family: -webkit-body;
+font-weight: 600;
+font-size: x-large;
+text-align: center;
+color: white;
+}
+.navbar.navbar-custom {
+margin-bottom: 0;
+}
+canvas.canvasjs-chart-canvas {
+background-color: rgba(0, 0, 0, 0.36);
+}
+input#submit_form,input#submit_aloha_form {
+border: 0;
+padding: 2px 5px 2px 5px;
+box-shadow: 2px 1px 2px 0px;
+font-family: bold;
+}
+input#export {
+border: 0;
+padding: 2px 5px 2px 5px;
+box-shadow: 2px 1px 2px 0px;
+font-family: bold;
+}
+div#rainfall-sub,div#aloha_primary_div,div#landslide_primary_div {
+background-color: rgba(245, 245, 245, 0.75);
+}
+h3 {
+color: white;
+}
+img {
+    width: 96px !important;
+    height: 95px;
+}
+body.cls_body {
+    background-color: rgba(128, 128, 128, 0.27);
+}
+.row {
+    background-color: aliceblue;
+    border-radius: 4px;
+	margin-left: 0px;
+	margin-right: 1px;
+}
+legend {
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+.data_table {
+    width: 103%;
+    height: 80%;
+    overflow: scroll;
+    font-size: 12px;
+    height: 500px;
+}
+input#submit_form{
+    border: 0;
+    padding: 7px 10px 9px 12px;
+    /* box-shadow: 2px 1px 2px 0px; */
+    font-family: bold;
+    color: white;
+    font-size: initial;
+    margin-top: 70px;
+    background-color: #163255;
+}
+input#export {
+    border: 0;
+    padding: 7px 10px 9px 12px;
+    box-shadow: 2px 1px 2px 0px;
+    font-family: bold;
+    margin-left: 29px;
+	margin-top: 70px;
+    color: white;
+    font-family: inherit;
+    background-color: #163255;
+    font-size: 14px;
+}
+select#districtList {
+    margin-top: 12px;
+}
+legend.stat_leg {
+    margin-top: 13px;
+}
+img.col_2_img {
+    width: 100% !important;
+    height: 100%;
+    margin-top: 40px;
+}
+fieldset {
+    padding: .35em .625em .75em;
+    margin: 14px -17px;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    background-color: rgba(233, 233, 233, 0);
+}
+.col-md-4.map_div {
+    margin-top: 23px;
+    height: 50%;
+    border: saddlebrown;
+    margin-bottom: 12px;
+}
+.logo-sm {
+    display: none !important;
+}
+.esriControlsBR {
+    display: none;
+}

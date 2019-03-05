@@ -1,0 +1,961 @@
+  <!DOCTYPE html>
+
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="/static/images/cop.png" />
+  <title>Techno Cop</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.5 -->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="static/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="static/css/skin-blue.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/anpr.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="static/css/bower_components/jvectormap/jquery-jvectormap.css">  
+  <!-- <link rel="stylesheet" href="static/css/dashboards-cards/style.css"> -->
+  <style type="text/css">
+    img#setting {
+        height: 22px;
+        margin-left: 5px;
+        margin-right: auto;
+        display: block;
+        float: left;
+        padding-right: 10px;
+    }
+    .camera_details label{
+      color: black;
+    }
+    p {
+      color: black;
+      text-overflow: ellipsis;
+      overflow-wrap: break-word;
+    }
+    .block_header {
+      display: block;
+      /*padding: 10px 10px 10px 30px;*/
+      position: relative;
+      background: #25408f;
+      color: #fff;
+      border-radius: 0;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      overflow: hidden;
+    }
+    .block_header:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -5px;
+      width: 30px;
+      height: 100%;
+      background: rgba(236, 27, 35, 0.9);
+      transform: skew(-15deg);
+    }
+    .block_body {
+      padding: 15px;
+      font-size: 14px;
+      display: inline-block;
+      width: 100%;
+    }
+    .block {
+      position: relative;
+      border-radius: 4px;
+      background: #ffffff;
+      margin-bottom: 20px;
+      width: 100%;
+      border: 1px solid #dadada;
+      border-top: 0;
+    }
+    .block_header .block_title {
+      display: inline-block;
+      font-size: 14px;
+      margin-left: 30px;
+      font-weight: 400;
+    }
+    /* footer css latest */
+    .block_header_footer {
+      display: block;
+      padding: 10px 10px 10px 30px;
+      position: relative;
+      background: #25408f;
+      color: #fff;
+      border-radius: 0;
+      overflow: hidden;
+      align-items: right !important;
+    }
+    .block_header_footer:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -5px;
+      width: 30px;
+      height: 100%;
+      background: rgba(236, 27, 35, 0.9);
+      transform: skew(-15deg);
+    }
+  </style>
+  
+
+  </head
+  >
+  <body class="hold-transition skin-blue sidebar-mini">
+  <div class="wrapper"> 
+    
+    <!-- Main Header -->
+    <header class="main-header block_header"> 
+      
+      <!-- Logo --> 
+      <a href="/anpr" class="logo"> 
+      
+      <!-- logo for regular state and mobile devices --> 
+        <span class="logo-lg">
+          <img src="/static/images/anpr.jpg" class="Dlogo"> 
+          <!-- <p>ALPR System</p> -->
+        </span> 
+      </a> 
+      
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation"> 
+        <!-- Sidebar toggle button--> 
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button"> </a> 
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            
+            <!-- User Account Menu -->
+            <li class="dropdown user user-menu"> 
+              <!-- Menu Toggle Button --> 
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+              <!-- The user image in the navbar--> 
+              <img src="static/images/user2-160x160.jpg" class="user-image" alt="User Image"> 
+              <!-- hidden-xs hides the username on small devices so only the image appears. --> 
+              <span class="hidden-xs"> Bala Chander D.</span> </a>
+              <ul class="dropdown-menu">
+                <!-- The user image in the menu -->
+                <li class="user-header"> <img src="static/images/user2-160x160.jpg" class="img-circle" alt="User Image">
+                  <p> Bala Chander D.<small>Member since Nov. 2012</small> </p>
+                </li>
+                <!-- Menu Body --> 
+                
+                <!-- Menu Footer-->
+                <!-- <li class="user-footer">
+                  <div class="pull-left"> <a href="#" class="btn btn-default btn-flat">Profile</a> </div>
+                  <div class="pull-right"> <a href="#" class="btn btn-default btn-flat">Sign out</a> </div>
+                </li> -->
+              </ul>
+            </li>
+            <!-- Control Sidebar Toggle Button -->
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar"> 
+      
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar"> 
+        
+        <!-- Sidebar user panel (optional) --> 
+        
+        <!-- search form (Optional) --> 
+        
+        <!-- /.search form --> 
+        
+        <!-- Sidebar Menu -->
+<!--         <ul class="sidebar-menu">
+          <li class="active"><a href="/anpr"><i class="Dash"></i> <span>ALPR</span></a></li>
+          <li><a href="/imageanpr"><i class="Dash"></i> <span>Image ALPR</span></a></li>
+          <li><a href="/analytics"><i class="Helpdesk"></i> <span>Analytics</span></a></li>
+          <li> <a href="#"><i class="Contact"></i> <span>Contact Book</span> </a></li>
+          <li> <a href="/properties"><i class="Event"></i> <span>Configuration</span> </a></li>
+        </ul> -->
+        <ul class="sidebar-menu">          
+          <!-- Optionally, you can add icons to the links -->
+          <li class="active"><a href="/anpr">
+            <!-- <i class="Dash"></i>  -->            
+            <img src="static/images/icons/cctv-icon.png" id="setting">
+            <span>ALPR</span></a>
+          </li>
+          <li><a href="/imageanpr">
+            <!-- <i class="Dash"></i>  -->
+            <img src="static/images/icons/anpr-icon.png" id="setting">
+            <span>Image ALPR</span></a>
+          </li>
+          <li><a href="/analytics">
+            <!-- <i class="Helpdesk"></i> -->
+            <img src="static/images/icons/analytics.png" id="setting">
+            <span>Analytics</span></a>
+          </li>
+          <li> <a href="#">
+            <!-- < class="Event"></i>  -->
+            <img src="static/images/icons/contact.png" id="setting">
+            <span>Contact Book</span> </a>
+          </li>
+          <li> <a href="/properties">
+            <!-- <i class="Event"></i>  -->
+            <img src="static/images/icons/setting-icon.png" id="setting">
+            <span>Configuration</span> </a>
+          </li>
+        </ul>
+        <!-- /.sidebar-menu --> 
+      </section>
+      <!-- /.sidebar --> 
+    </aside>
+    
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper"> 
+      <!-- Content Header (Page header) -->
+      <section class="content-header"> </section>
+      
+      <!-- Main content -->
+      <section class="content">
+        <!-- vechiel count -->
+        <div class="row">
+
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Vehicle Image</h5>                                
+              </div>
+              <div class="panel-body">
+                <img src="static/images/portfolio5.jpg" class="profi_pic veh_img" id="veh_img_cap">
+                <canvas id="veh_img_can"></canvas>
+                <!-- <img id="thumbnail_img" alt="Right click to save" src=""  crossOrigin="Anonymous"/> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Zoom Image</h5>                                
+              </div>
+              <div class="panel-body">
+                <div class="wid100"> 
+                      <div class="" id="crop-avatar">
+                        <div class="avatar-view" title="Click to Investigation">                        
+                          <img src="static/images/portfolio5.jpg" class="profi_pic zoom_img" id="veh-original-img"> 
+                          <!-- <img src="" height="190px" width="276px" id="veh-original-img"> -->
+                        </div>
+
+                        <!-- Cropping modal -->
+                        <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <form class="avatar-form" action="crop.php" enctype="multipart/form-data" method="post">
+                                <!-- <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button><br>
+                                </div> -->
+                                <div class="modal-body">
+                                  <div class="avatar-body">
+
+                                    <!-- Upload image and data -->
+                                    <div class="avatar-upload">
+                                      <input type="hidden" class="avatar-src" name="avatar_src">
+                                      <input type="hidden" class="avatar-data" name="avatar_data">
+                                      <!-- <label for="avatarInput">Upload File's (jpg,png)</label> -->
+                                      <input type="file" class="avatar-input" id="avatarInput" name="avatar_file">
+                                    </div>
+
+                                    <!-- Crop and preview -->
+                                    <div class="row">
+                                      <div class="col-md-9">
+                                        <div class="avatar-wrapper"></div>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <div class="avatar-preview preview-lg"></div>
+                                        <div class="avatar-preview preview-md"></div>
+                                        <div class="avatar-preview preview-sm"></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="row avatar-btns">
+                                      <div class="col-md-9">
+                                        <div class="btn-group">
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-90" title="Rotate -90 degrees">Rotate Left</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-15">-15deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-30">-30deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-45">-45deg</button>
+                                        </div>
+                                        <div class="btn-group">
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="90" title="Rotate 90 degrees">Rotate Right</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="15">15deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="30">30deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="45">45deg</button>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <!-- <button type="submit" class="btn btn-primary btn-block avatar-save">Done</button> -->
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="block_header_footer">
+                                  <button type="button" style="color: white;background-color: #d9534f;border-color: #d9534f;" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- / end of zoom .modal window-->                     
+                    </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-2">
+            <div class="box box-success">
+              <div class="box-header">
+                <h3 class="box-title">VEHICLE IMAGE</h3>
+                <div class="bcontaner">
+                  <div class="wid100"> 
+                    <img src="static/images/portfolio5.jpg" class="profi_pic veh_img"> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Crop Image</h5>                                
+              </div>
+              <div class="panel-body">
+                <div class="wid100" data-toggle = "modal" data-target = "#alprcamLiveFeed"> 
+                    <img src="static/images/portfolio5.jpg" class="profi_pic crop_img"> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Vehicle Count</h5>                                
+              </div>
+              <div class="panel-body">
+                <div id="veh_count_meter"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Total Amount</h5>                                
+              </div>
+              <div class="panel-body">
+                <div id="amount_meter"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- <div class="col-md-2">
+            <div class="box box-success blue-box">
+              <div class="box-header">                
+                <div id="veh_count_meter"></div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-2">
+            <div class="box box-success blue-box">
+              <div class="box-header">                
+                <div id="amount_meter"></div>
+              </div>
+            </div>
+          </div> -->
+          <!-- parking hours -->
+          <!-- <div class="col-md-2">
+            <div class="box box-success blue-box">
+              <div class="box-header">                
+                <div id="park_hrs_meter"></div>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Receipt</h5>                
+                <a href="#" class="pull-right btn btn-danger" onclick="printData()">Print</a>
+              </div>
+
+              <!-- <div class="panel-heading">Receipt<a href="#" class="pull-right btn btn-danger" onclick="printData()">Print</a></div> -->
+              <div class="panel-body">
+                <div class="bcontaner">                    
+                  <div class="wid100"> <img src="static/images/qr-code.png" class="profi_pic qr_code_img" id="qr_code_img"> </div>
+                  <p id="today_date_time">11/09/2018 16:55:01</p>
+                </div>                 
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-2">
+            <div class="box box-success">
+              <div class="box-header">
+                <h3 class="box-title">RECEIPT</h3><a href="#" class="pull-right btn btn-danger" onclick="printData()">PRINT</a>
+                <div class="bcontaner">                    
+                    <div class="wid100"> <img src="static/images/qr-code.png" class="profi_pic qr_code_img" id="qr_code_img"> </div>
+                    <p id="today_date_time">11/09/2018 16:55:01</p>
+                  </div>                  
+              </div>                
+            </div>
+          </div> -->
+          <!-- clock -->
+          <!-- <div class="col-md-2">
+            <div class="box box-success myclock_box">
+              <div class="box-header">                
+                <div class="bcontaner">
+                    <div class="wid100"> 
+                      <div id="myclock"></div>                       
+                    </div>
+                  </div>                  
+              </div>                
+            </div>
+          </div> -->
+        </div>
+	    <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-5">
+              <div class="panel panel-info">
+                <div class="block_header">
+                  <h5 class="block_title">Live Feed</h5>
+                  <a href="#" class="pull-right btn btn-danger" id="capture_image">Capture</a>
+                </div>
+                <!-- <div class="panel-heading">Live Feed
+                  <a href="#" class="pull-right btn btn-danger" id="capture_image">Capture</a>
+                </div> -->
+                <div class="panel-body">
+                  <img src="{{ url_for('anprfromcam', camera=['static/videos/alpr-feed.mp4']) }}" class="profi_pic cam_live_feed" id="cam_live_feed">                 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-7">
+              <div class="panel panel-info">
+                <div class="block_header">
+                  <h5 class="block_title">Site Area</h5>
+                </div>
+                <div class="panel-body">
+                  <div id="map" class="profi_pic"></div>                 
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-sm-6 col-md-3">
+              <div class="block box_shdw">
+                  <div class="block_header">
+                    <h5 class="block_title">Active Deposits</h5>
+                  </div>
+                  <div class="block_body">
+                    <div class="blocks_two">
+                      <span class="text">Count</span>
+                        <span class="count">16,647</span>
+                    </div>
+                    <div class="blocks_two">
+                      <span class="text">Amount (in laks)</span>
+                        <span class="count">48871.80</span>
+                    </div>
+                  </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-md-2 camera_details">
+              <div class="box box-success blue-box">
+                <div class="box-header">
+                  <h3 class="box-title">CAMERA DETAIL'S</h3>
+                    <label>Name : </label><p id="camera_name"></p>                
+                    <label>Position: </label><p id="camera_loc"></p>
+                    <label>URL : </label><a target="_blank" href="" id="camera_url_a"><p id="camera_url"></p></a>
+                </div>
+              </div>
+            </div> -->
+
+
+            
+
+           
+                    
+        </div>
+        <!-- End of Row 1 -->
+		    <!-- Row 2 -->
+
+        <!-- End of row 2 -->
+        <!-- Row 3 -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">ALPR Data</h5>                                                
+              </div>
+              <input type="text" placeholder="Date picker" id="singleDateRange" class="pull-left btn" value="">
+                <a href="#" onclick="check(event)" class="pull-left btn btn-danger" id="btngetCurrentdata">GET DATA</a><br>
+              <div class="panel-body">
+                <table id="alpr_data_tbl" class="display" style=" ">
+                  <thead class="off">
+                    <tr class="">
+                      <th data-field="ALPR_ID" data-formatter="nameFormatter">ALPR ID</th>
+                      <th data-field="Number_Plate" data-formatter="starsFormatter">Number Plate</th>
+                      <th data-field="Vehicle_Image" data-formatter="forksFormatter">Vehicle Image</th>
+                      <th data-field="QRCode">QRCode</th>
+                      <th data-field="Start_Date_Time">Start Date Time</th>
+                      <th data-field="End_Date_Time">End Date Time</th>
+                      <th data-field="Parking_Hours" data-formatter="forksFormatter">Parking Hours</th>
+                      <th data-field="Total_Cost">Total Cost</th>
+                      <th data-field="Vehicle_Num">Vehicle Number</th>
+                    </tr>
+                  </thead>                  
+                </table>             
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-12">
+            <div class="box box-success">
+              <div class="box-header">                
+                <div class="col-md-12">                   
+                  <input type="text" placeholder="Date picker" id="singleDateRange" class="pull-left btn" value="">
+                  <a href="#" onclick="check(event)" class="pull-left btn btn-danger" id="btngetCurrentdata">GET DATA</a>
+                </div>
+                <table id="alpr_data_tbl" class="display" style=" ">
+                  <thead class="off">
+                    <tr class="">
+                      <th data-field="ALPR_ID" data-formatter="nameFormatter">ALPR ID</th>
+                      <th data-field="Number_Plate" data-formatter="starsFormatter">Number Plate</th>
+                      <th data-field="Vehicle_Image" data-formatter="forksFormatter">Vehicle Image</th>
+                      <th data-field="QRCode">QRCode</th>
+                      <th data-field="Start_Date_Time">Start Date Time</th>
+                      <th data-field="End_Date_Time">End Date Time</th>
+                      <th data-field="Parking_Hours" data-formatter="forksFormatter">Parking Hours</th>
+                      <th data-field="Total_Cost">Total Cost</th>
+                    </tr>
+                  </thead>                  
+                </table>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+        <!-- End of Row 3 -->  
+  
+        <!-- Your Page Content Here --> 
+        
+      </section>
+      <!-- /.content --> 
+    </div>
+    <!-- /.content-wrapper --> 
+    <!-- Modal window for LIVE FEED -->
+    <div  class = "modal fade" id = "alprcamLiveFeed" tabindex = "-1" role = "dialog" aria-labelledby = "alprcamLiveFeedLabel" aria-hidden = "true">
+      <div class = "modal-dialog" style="width: 50%;">
+        <div class = "modal-content" style="background: #262f40;">
+          <!-- <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button><br>        
+          </div> -->             
+           <div class = "modal-body">               
+              <!-- <img src="http://192.168.26.132:8000/anprfromcam?camera=static%2Fvideos%2FRecording.avi" class="profi_pic cam_live_feed"> -->
+              <img src="" class="profi_pic cam_live_feed"> 
+           </div>             
+           <div class = "block_header_footer">
+              <button type = "button" class = "btn btn-default" data-dismiss = "modal" style="color: white;background-color: #d9534f;border-color: #d9534f;">
+                 Close
+              </button>
+           </div>
+        </div><!-- /.modal-content -->
+      </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- Modal window for number plate recognition image on ALPR-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>        
+          </div> -->
+          <div class="modal-body">
+            <img src="static/images/portfolio5.jpg" id="alpr-modal-img" class="alpr-modal-img" width="350px" height="250px"/><br>
+            <div id="cropped_result" width="150px" height="150px"></div>        
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="crop-alpr-image" class="btn btn-primary" onclick='cropimage()'>Crop</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="cancelCrop()">Close</button>
+            <button type="button" id="save-cropped-image" class="btn btn-primary" >Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal window for number plate recognition image on ALPR-->
+    <!-- Modal window for Table Data Modal -->
+    <div class="modal fade" id="myTrDataModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog alpr-data-model" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>        
+          </div> -->
+          <div class="modal-zoom-body alpr_modal_body">
+            <div class="row">
+              <div class="col-md-6">
+
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                  <div class="thumbnail bootsnipp-thumb">                  
+                    <div style="overflow: hidden; position: relative; height: 205.5px;">
+                      <img src="" id="alpr_veh_image" class="img-rounded" width="100%" height="100%"/>
+                    </div>                  
+                  </div>
+                </div>
+
+
+                <!-- <img src="" id="alpr_veh_image" class="" width="100%" height="25%"/> -->
+                <img src="" id="alpr_qrcode_image" class="" width="35%" height="25%"/>
+                <img src="" id="alpr_image" class="" width="55%" height="100px"/>                            
+              </div>
+              <div class="col-md-6 alpr-modal-p-div">
+                <p>ALPR ID  </p><p id="alpr-id"></p>
+                <p>Vehicle Number </p><p id="alpr_veh_num"></p>
+                <p>Start Date Time  </p><p id="alpr-startdatetime"></p>
+                <p>End Date Time  </p>
+                <input type="text" id="end_date_datepicker" class="alpr-enddatetime btn btn-primary" value=""><br><br>
+                <!-- <p id="alpr-enddatetime"></p> -->
+                <!-- <p>Parking Hours  </p><p id="alpr-parking-hours"></p> -->
+                <!-- <p>Total Cost  </p><p id="alpr-total-cost"></p> -->
+                  <div class="col-md-6">
+                    <div id="park_hrs_veh_meter"></div>                    
+                  </div>
+                  <!-- Parking amount -->
+                  <div class="col-md-6">
+                    <div id="park_hrs_amount_meter"></div>                    
+                  </div>
+              </div>            
+            </div>          
+          </div>
+          <div class="block_header_footer">
+            <button type="button" class="btn btn-primary" id="update_alpr_record" class="update_alpr_record" >Update</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="cancelCrop()">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-dialog -->   
+
+    <!-- </div>/.modal -->
+    <!-- Main Footer -->
+    <footer class="main-footer"> 
+      <!-- To the right -->
+      <!-- <div class="pull-right hidden-xs"> Anything you want </div> -->
+      <!-- Default to the left --> 
+      <strong>Copyright &copy; 2018 <a href="#">Automatic License Plate Recognition</a>.</strong> All rights reserved. </footer>
+    
+    <!-- Control Sidebar --> 
+    <!-- /.control-sidebar -->
+    
+    <div class="control-sidebar-bg"></div>
+  </div>
+  <!-- ./wrapper --> 
+
+  <!-- REQUIRED JS SCRIPTS --> 
+
+  <!-- jQuery 2.1.4 --> 
+  <script src="static/js/jQuery-2.1.4.min.js"></script> 
+  <!-- Bootstrap 3.3.5 --> 
+  <script src="static/js/bootstrap.min.js"></script> 
+  <!-- AdminLTE App --> 
+  <script src="static/js/app.min.js"></script>
+
+  <!-- google maps scripts -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <!-- <script type="" src="https://maps.googleapis.com/maps/api/staticmap?center=20,70&zoom=5&size=1024x1024"></script> -->
+  <!-- <script src="static/js/maps/jquery.gmapping.min.js"></script> -->
+  <!-- <script src="static/js/maps/app.js"></script> -->
+  <script type="text/javascript">
+    // var locations = [
+    //   ['<style type="text/css">p{color:black}</style><p>Camera 1</p><img width="100%" src="http://localhost:5000/anprfromcam?camera=static/videos/alpr-feed.mp4"/><input class="btn btn-primary" type="button" value="Click">', -33.890542, 151.274856, 4]    
+    // ];
+    var mapStyles = [
+      { //hide all fills
+        elementType: 'geometry.fill',
+        stylers: [
+          { visibility: 'off' }
+        ]
+      },{
+        featureType: 'landscape.natural.landcover',
+        elementType: 'geometry.fill',
+        stylers: [
+          { visibility: 'on' },
+        ]
+      }
+    ];
+    var locations = {{cameras | safe}}
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 8,
+      center: new google.maps.LatLng(17.3850, 78.6867),
+      styles: mapStyles,
+      backgroundColor: 'hsla(0, 0%, 0%, 0)'
+      // mapTypeId: google.maps.MapTypeId.ROADMAP
+    });    
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+        icon: 'static/images/cctv-img.png'
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+  <!-- Gauge Meter JS -->
+  <!-- <script src="static/js/jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script> -->
+  <!-- Count of vehicles bar -->
+  <script src="static/js/radial-progress-bar.js"></script>
+  <script src="static/js/custom.js"></script>
+  <!-- <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+
+  <!-- Data table plugin -->
+  <!-- https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js -->
+  <!-- https://cdn.datatables.net/1.10.19/js/dataTables.jqueryui.min.js -->
+
+  <script type="text/javascript" src="static/js/jquery.dataTables.min.js"></script>
+  <!-- <link href="static/css/twitter-bootstrap/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="static/css/jquery.dataTables.min.css" rel="stylesheet">
+  <!-- Croping image js -->
+  <script src="static/js/cropper.js"></script>
+  <script src="static/js/cropper.min.js"></script>
+  <script src="static/js/croper-main.js"></script>
+  <link rel="stylesheet" href="static/css/cropper.css">
+  <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/cropper.min.css">
+  <link rel="stylesheet" href="static/css/croper-main.css">
+
+    <!-- World Map -->
+  <!-- <script src="static/js/mapdata.js"></script> -->
+  <!-- <script src="static/js/worldmap.js"></script> -->
+  <!-- Dot meter -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="static/js/dot/donutty-jquery.js"></script>
+  <!-- Gauge meters -->
+  <link rel="stylesheet" href="static/css/fonts/fonts.css">
+  <script src="static/js/gauge.min.js"></script>
+  <!-- Just guage scripts -->
+  <script src="static/js/raphael-2.1.4.min.js"></script>
+  <script src="static/js/justgage.js"></script>
+  <!-- <script src="http://cdn.jsdelivr.net/raphael/2.1.2/raphael-min.js"></script> -->
+  <!-- <script src="http://cdn.jsdelivr.net/justgage/1.0.1/justgage.min.js"></script> -->
+  
+  <!-- Date picker -->
+  <link href="static/css/style-datepicker.css" rel="stylesheet" type="text/css">
+  <link href="static/css/calendar.css" rel="stylesheet" type="text/css">
+  <!-- <script src="https://code.jquery.com/jquery-3.0.0.slim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+  <script src="static/js/es6.js"></script>
+
+  <!-- Clock plugin scripts -->
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" media="screen" href="static/css/main.css"/> -->
+  <!-- <script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>  -->
+  <script language="javascript" type="text/javascript" src="static/js/jquery.thooClock.js"></script> 
+  <!--  End of clock plugin -->
+  <!-- <script src="https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js"></script> -->
+
+  <script type="text/javascript">
+    
+    //  ALPR data table function(){}... 
+    //  Vehicle count meter
+    var veh_count_meter = new JustGage({
+      id: "veh_count_meter",
+      value: 541,
+      min: 0,
+      max: 3000,      
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#b6e6fc"], 
+      pointer: true,       
+      label: "count",
+      relativeGaugeSize: true
+    });       
+    // Amount meter
+    var amount_meter = new JustGage({
+      id: "amount_meter",
+      value: 489,
+      min: 0,
+      max: 3000,
+      // title: "TOTAL AMOUNT",        
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#b6e6fc"], 
+      pointer: true,       
+      label: "Rs.",
+      relativeGaugeSize: true
+    });
+    // Hours meter
+    var park_hrs_meter = new JustGage({
+      id: "park_hrs_meter",
+      value: 1250,
+      min: 0,
+      max: 3000,
+      title: "PARKING HOURS",        
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#b6e6fc"], 
+      pointer: true,       
+      label: "hours",
+      relativeGaugeSize: true
+    });
+    // Hours meter
+    var park_hrs_veh_meter = new JustGage({
+      id: "park_hrs_veh_meter",
+      value: 0,
+      min: 0,
+      max: 10000,
+      title: "PARKING HOURS",    
+      titleFontSize: "15px",    
+      titleFontColor : "black",
+      relativeGaugeSize: true,
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#fa9400"], 
+      pointer: true,       
+      label: ""
+    });
+    // modal amount meter
+    var park_hrs_amount_meter = new JustGage({
+      id: "park_hrs_amount_meter",
+      value: 0,
+      min: 0,
+      max: 1000000,
+      titleFontSize: "15px",
+      title: "PARKING AMOUNT",        
+      titleFontColor : "black",
+      relativeGaugeSize: true,
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#c2cc0d"], 
+      pointer: true,       
+      label: ""
+    });
+  </script>
+  <script>
+    'use strict';
+
+    $(function () {
+        'use strict';
+
+        $('#singleDateRange').DatePicker({
+            startDate: moment()
+        });
+        $('#end_date_datepicker').DatePicker({
+            startDate: moment()
+        });
+
+
+        $('#rangedate').DatePicker({
+            type: 'rangedate',
+        startDate: moment().subtract(1, 'week'),
+        endDate: moment(),
+        ranges: [{
+            label: "Yesterday",
+            startDate: moment().subtract(1, 'day'),
+            endDate: moment().subtract(1, 'day')
+        }, {
+            label: 'Sunday',
+            startDate: moment().startOf('week'),
+            endDate: moment()
+        }, {
+            label: '2 Weeks',
+            startDate: moment().startOf('week').subtract(1, 'week'),
+            endDate: moment()
+        }, {
+            label: 'This Month',
+            startDate: moment().startOf('month'),
+            endDate: moment()
+        }, {
+            label: 'Last Month',
+            startDate: moment().startOf('month').subtract(1, 'month'),
+            endDate: moment().startOf('month')
+        }, {
+            label: 'This Year',
+            startDate: moment().startOf('year'),
+            endDate: moment().startOf('moth')
+        }]
+        });
+       $('#modalmode').DatePicker({
+            startDate: moment(),
+            modalMode: true
+        });
+    });
+
+    $('#btngetCurrentdata').click(function(){
+      var selectedDate = $('#singleDateRange').val().replace(/[.]/g, '-');
+      console.log(selectedDate);
+      createAnalyticsTable(selectedDate, null, null, 'CURRENT');
+    });
+    
+
+    function createAnalyticsTable(date, from_date, to_date, flag) {
+      $.ajax({
+        url: 'http://localhost:5000/getalprsqltabledata?date='+date+"&fromdate="+from_date+"&todate="+to_date,                
+        type: 'POST',
+        success: function(response){
+          $("#alpr_data_tbl tbody").empty();
+          $("#alpr_current_date_data_table tbody").empty(); 
+          var resp = response;
+          var obj = JSON.parse(resp);                    
+
+          var data_table = JSON.parse(obj.tabledata);
+
+          var rows_count = obj.rowcount;
+          var total_cost = obj.totalcost;
+          var total_park_hours = obj.totalparkhours;
+          veh_count_meter.refresh(rows_count);
+          amount_meter.refresh(total_cost);
+          // park_hrs_meter.refresh(total_park_hours);
+          console.log(data_table);
+          if(flag==='CURRENT'){
+            $.each(data_table, function(i, value){                      
+              $("#alpr_data_tbl").append("<tr class='alpr-data-tr' id='alpr-data-tr' data-toggle='modal' data-target='#myTrDataModal' ><td>"+value.ALPR_ID+"</td><td><img src="+value.ALPR_IMG+" height='50px' width='100px'></td><td><img src='"+value.VEHICLE_IMG+"' height='50px' width='100px'></td><td><img src='"+value.QRCODE_IMG+"' height='50px' width='50px'></td><td>"+value.STARTDATETIME+"</td><td>"+value.ENDDATATIME+"</td><td>"+value.PARKING_HOURS+"</td><td>"+value.TOTAL_COST+"</td><td>"+value.VEHICLE_NUM+"</td></tr>");
+            });
+          }else{        
+            $.each(data_table, function(i, value){                      
+              $("#alpr_data_table").append("<tr class='alpr-data-tr' id='alpr-data-tr' data-toggle='modal' data-target='#myTrDataModal' ><td>"+value.ALPR_ID+"</td><td><img src="+value.ALPR_IMG+" height='50px' width='100px'></td><td><img src='"+value.VEHICLE_IMG+"' height='50px' width='100px'></td><td><img src='"+value.QRCODE_IMG+"' height='50px' width='50px'></td><td>"+value.STARTDATETIME+"</td><td>"+value.ENDDATATIME+"</td><td>"+value.PARKING_HOURS+"</td><td>"+value.TOTAL_COST+"</td><td>"+value.VEHICLE_NUM+"</td></tr>");
+            });
+            console.log(rows_count); 
+            veh_count_meter.refresh(rows_count);           
+            amount_meter.refresh(total_cost);
+            park_hrs_meter.refresh(total_park_hours);
+          }      
+        },
+        error: function(error){
+          console.log(error);
+        }
+      });
+      // $('#end_date_datepicker').datepicker();
+    }
+
+    function openCamera(camera, location, name) {
+      console.log(camera);  
+      $('#cam_live_feed').attr('src', camera);
+      $('#camera_name').html(name);
+      $('#camera_url').html(camera);
+      $('#camera_loc').html(location);
+      $('#camera_url_a').attr('href',camera);
+    }
+    
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,1097 @@
+  <!DOCTYPE html>
+
+  <html>
+  <head>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/cop.png" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Techno Cop</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link href="static/fonts/varela-round.css" rel="stylesheet">
+  <!-- Bootstrap 3.3.5 -->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="static/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="static/css/skin-blue.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/simple-chart.css">
+  <style type="text/css">
+    img#setting {
+        height: 22px;
+        margin-left: 5px;
+        margin-right: auto;
+        display: block;
+        float: left;
+        padding-right: 10px;
+    }
+    .myclock_box {
+      /*background: white;
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;    */
+    }
+
+    .block_header {
+      display: block;
+      /*padding: 10px 10px 10px 30px;*/
+      position: relative;
+      background: #25408f;
+      color: #fff;
+      border-radius: 0;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      overflow: hidden;
+    }
+    .block_header:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -5px;
+      width: 30px;
+      height: 100%;
+      background: rgba(236, 27, 35, 0.9);
+      transform: skew(-15deg);
+    }
+    .block_body {
+      padding: 15px;
+      font-size: 14px;
+      display: inline-block;
+      width: 100%;
+    }
+    .block {
+      position: relative;
+      border-radius: 4px;
+      background: #ffffff;
+      margin-bottom: 20px;
+      width: 100%;
+      border: 1px solid #dadada;
+      border-top: 0;
+    }
+    .block_header .block_title {
+      display: inline-block;
+      font-size: 14px;
+      margin-left: 30px;
+      font-weight: 400;
+    }
+    /* footer css latest */
+    .block_header_footer {
+      display: block;
+      padding: 10px 10px 10px 30px;
+      position: relative;
+      background: #25408f;
+      color: #fff;
+      border-radius: 0;
+      overflow: hidden;
+      align-items: right !important;
+    }
+    .block_header_footer:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -5px;
+      width: 30px;
+      height: 100%;
+      background: rgba(236, 27, 35, 0.9);
+      transform: skew(-15deg);
+    }
+  </style>
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini">
+  <div class="wrapper"> 
+    
+    <!-- Main Header -->
+    <header class="main-header block_header"> 
+      
+      <!-- Logo --> 
+      <a href="/anpr" class="logo"> 
+      
+      <!-- logo for regular state and mobile devices --> 
+        <span class="logo-lg">
+          <!-- <img src="images/logo.png" class="Dlogo">  -->
+          <img src="/static/images/anpr.jpg" class="Dlogo"> 
+          <!-- <p>Techno Cop</p> -->
+        </span> 
+      </a> 
+      
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation"> 
+        <!-- Sidebar toggle button--> 
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button"> </a> 
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            
+            <!-- User Account Menu -->
+            <li class="dropdown user user-menu"> 
+              <!-- Menu Toggle Button --> 
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+              <!-- The user image in the navbar--> 
+              <img src="static/images/user2-160x160.jpg" class="user-image" alt="User Image"> 
+              <!-- hidden-xs hides the username on small devices so only the image appears. --> 
+              <span class="hidden-xs"> Bala Chander D.</span> </a>
+              <ul class="dropdown-menu">
+                <!-- The user image in the menu -->
+                <li class="user-header"> <img src="static/images/user2-160x160.jpg" class="img-circle" alt="User Image">
+                  <p> Bala Chander D.<small>Member since Nov. 2012</small> </p>
+                </li>
+                <!-- Menu Body --> 
+                
+                <!-- Menu Footer-->
+                <!-- <li class="user-footer">
+                  <div class="pull-left"> <a href="#" class="btn btn-default btn-flat">Profile</a> </div>
+                  <div class="pull-right"> <a href="#" class="btn btn-default btn-flat">Sign out</a> </div>
+                </li> -->
+              </ul>
+            </li>
+            <!-- Control Sidebar Toggle Button -->
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar"> 
+      
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar"> 
+        
+        <!-- Sidebar user panel (optional) --> 
+        
+        <!-- search form (Optional) --> 
+        
+        <!-- /.search form --> 
+        
+        <!-- Sidebar Menu -->
+        <!-- <ul class="sidebar-menu">                    
+          <li><a href="/anpr"><i class="Dash"></i> <span>ALPR</span></a></li>
+          <li class="active"><a href="/imageanpr"><i class="Dash"></i> <span>Image ALPR</span></a></li>
+          <li><a href="/analytics"><i class="Helpdesk"></i> <span>Analytics</span></a></li>
+          <li> <a href="#"><i class="Event"></i> <span>Contact Book</span> </a></li>
+          <li> <a href="/properties"><i class="Event"></i> <span>Configuration</span> </a></li>
+        </ul> -->
+        <ul class="sidebar-menu">          
+          <!-- Optionally, you can add icons to the links -->
+          <li><a href="/anpr">
+            <!-- <i class="Dash"></i>  -->            
+            <img src="static/images/icons/cctv-icon.png" id="setting">
+            <span>ALPR</span></a>
+          </li>
+          <li class="active"><a href="/imageanpr">
+            <!-- <i class="Dash"></i>  -->
+            <img src="static/images/icons/anpr-icon.png" id="setting">
+            <span>Image ALPR</span></a>
+          </li>
+          <li><a href="/analytics">
+            <!-- <i class="Helpdesk"></i> -->
+            <img src="static/images/icons/analytics.png" id="setting">
+            <span>Analytics</span></a>
+          </li>
+          <li> <a href="#">
+            <!-- < class="Event"></i>  -->
+            <img src="static/images/icons/contact.png" id="setting">
+            <span>Contact Book</span> </a>
+          </li>
+          <li> <a href="/properties">
+            <!-- <i class="Event"></i>  -->
+            <img src="static/images/icons/setting-icon.png" id="setting">
+            <span>Configuration</span> </a>
+          </li>
+        </ul>
+        <!-- /.sidebar-menu --> 
+      </section>
+      <!-- /.sidebar --> 
+    </aside>
+    
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper"> 
+      <!-- Content Header (Page header) -->
+      <!-- <section class="content-header"> </section> -->
+      
+      <!-- Main content -->
+      <section class="content">
+            <!-- Row 2 -->
+        <!-- vechiel count -->
+        <div class="row">   
+          <!-- <div class="col-md-2">
+            <div class="box box-success blue-box">
+              <div class="box-header">                
+                <div id="veh_count_meter"></div>                  
+              </div>                
+            </div>
+          </div> -->
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Vehicle Count</h5>                                
+              </div>
+              <div class="panel-body">
+                <div id="veh_count_meter"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Total Amount</h5>                                
+              </div>              
+              <div class="panel-body">
+                <div id="amount_meter"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Parking Hours</h5>                                
+              </div>
+              <div class="panel-body">
+                <div id="park_hrs_meter"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-2">
+            <div class="box box-success blue-box">
+              <div class="box-header">                
+                <div id="amount_meter"></div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-md-2">
+            <div class="box box-success blue-box">
+              <div class="box-header">                
+                <div id="park_hrs_meter"></div>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-md-2">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">Receipt</h5>                                
+                <a href="#" class="pull-right btn btn-danger" id="print_receipt">Print</a>
+              </div>              
+              <div class="panel-body">
+                <div class="">                    
+                  <div class="wid100"> 
+                    <img src="static/images/qr-code.png" class="profi_pic qr_code_img" id="veh-qrcode-img"> 
+                  </div>
+                  <p id="today_date_time"></p>
+                  <p id="number"></p>
+                  <!-- <p id="amount"></p> -->
+                </div>                 
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-2">
+            <div class="box box-success">
+              <div class="box-header">
+                <h3 class="box-title">RECEIPT</h3><a href="#" class="pull-right btn btn-danger" id="print_receipt">PRINT</a>
+                <div class="bcontaner">
+                    <div class="wid100"> 
+                      <img src="static/images/qr-code.png" class="profi_pic qr_code_img" id="veh-qrcode-img"> 
+                      <p id="today_date_time"></p>
+                    </div>
+                  </div>                  
+              </div>                
+            </div>
+          </div>  --> 
+                 
+          <!-- <div class="col-md-2">
+            <div class="box box-success myclock_box">
+              <div class="box-header">                
+                <div class="bcontaner">
+                    <div class="wid100"> 
+                      <div id="myclock"></div>                       
+                    </div>
+                  </div>                  
+              </div>                
+            </div>
+          </div> -->
+          <div class="col-md-4">
+            <div class="panel panel-info">
+              <div class="block_header">
+                <h5 class="block_title">ANPR Processing Time</h5>                                                
+              </div>              
+              <div class="panel-body">
+                <div class="bar-chart"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-4">
+            <div class="box box-success blue-box">
+              <div class="box-header">                
+                <div class="bar-chart"></div>
+              </div>
+            </div>
+          </div>  -->         
+
+        </div>
+        <!-- End of row 2 -->
+	    <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-info">
+                  <div class="block_header">
+                    <h5 class="block_title">Records</h5>                                                
+                  </div>
+                  <div class="panel-body">
+                    <div id="selectable-tree"></div>
+                  </div>
+                </div>
+              </div>
+
+
+            <!-- <div class="col-md-6">
+              <div class="box box-success">
+                <div class="box-header">
+                  <h3 class="box-title">RECORDS</h3>
+                  <div class="bcontaner">
+                    <div class="wid100">                      
+                      <div id="selectable-tree"></div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </div>  -->          
+
+            <div class="col-md-3">
+              <div class="panel panel-info">
+                <div class="block_header">
+                  <h5 class="block_title">Vehicle Image</h5>                                                
+                </div>
+                <div class="panel-body">
+                  <img src="static/images/portfolio5.jpg" class="profi_pic veh_img veh_image">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel panel-info">
+                <div class="block_header">
+                  <h5 class="block_title">ALPR Image</h5>                                                
+                </div>
+                <div class="panel-body">
+                  <img src="static/images/portfolio5.jpg" class="profi_pic alpr_img" id="alpr_img" data-toggle="modal" data-target="#myZoomModal">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel panel-info">
+                <div class="block_header">
+                  <h5 class="block_title">Zoom Image</h5>                                                
+                </div>
+                <div class="panel-body">
+                  <div class="">
+                    <div class="wid100"> 
+                      <div class="" id="crop-avatar">
+                        <div class="avatar-view" title="Click to Investigation">                        
+                          <img src="static/images/portfolio5.jpg" class="profi_pic zoom_img" id="selectable-tree-img"> 
+                          <!-- <img src="" height="190px" width="276px" id="veh-original-img"> -->
+                        </div>
+
+                        <!-- Cropping modal -->
+                        <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <form class="avatar-form" action="crop.php" enctype="multipart/form-data" method="post">
+                                <!-- <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button><br>
+                                </div> -->
+                                <div class="modal-body">
+                                  <div class="avatar-body">
+
+                                    <!-- Upload image and data -->
+                                    <div class="avatar-upload">
+                                      <input type="hidden" class="avatar-src" name="avatar_src">
+                                      <input type="hidden" class="avatar-data" name="avatar_data">
+                                      <!-- <label for="avatarInput">Upload File's (jpg,png)</label> -->
+                                      <input type="file" class="avatar-input" id="avatarInput" name="avatar_file">
+                                    </div>
+
+                                    <!-- Crop and preview -->
+                                    <div class="row">
+                                      <div class="col-md-9">
+                                        <div class="avatar-wrapper"></div>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <div class="avatar-preview preview-lg"></div>
+                                        <div class="avatar-preview preview-md"></div>
+                                        <div class="avatar-preview preview-sm"></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="row avatar-btns">
+                                      <div class="col-md-9">
+                                        <div class="btn-group">
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-90" title="Rotate -90 degrees">Rotate Left</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-15">-15deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-30">-30deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="-45">-45deg</button>
+                                        </div>
+                                        <div class="btn-group">
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="90" title="Rotate 90 degrees">Rotate Right</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="15">15deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="30">30deg</button>
+                                          <button type="button" class="btn btn-primary" data-method="rotate" data-option="45">45deg</button>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <!-- <button type="submit" class="btn btn-primary btn-block avatar-save">Done</button> -->
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="block_header_footer">
+                                  <button type="button" style="color: white;background-color: #d9534f;border-color: #d9534f;" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- / end of zoom .modal window-->                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-md-3">
+              <div class="box box-success">
+                <div class="box-header">
+                  <h3 class="box-title">VEHICLE IMAGE</h3>
+                  <div class="bcontaner">
+                    <div class="wid100"> 
+                      <img src="static/images/portfolio5.jpg" class="profi_pic veh_img veh_image"> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-3">
+              <div class="box box-success">
+                <div class="box-header">
+                  <h3 class="box-title">ALPR IMAGE</h3>
+                  <div class="bcontaner">
+                    <div class="wid100"> 
+                      <img src="static/images/portfolio5.jpg" class="profi_pic alpr_img" id="alpr_img" data-toggle="modal" data-target="#myZoomModal"> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <div class="col-md-3">
+              <div class="panel panel-info">
+                <div class="block_header">
+                  <h5 class="block_title">Crop Image</h5>                                                
+                </div>
+                <div class="panel-body">
+                  <div class="wid100" data-toggle = "modal" data-target = "#alprcamLiveFeed"> 
+                    <img src="static/images/portfolio5.jpg" class="profi_pic crop_img" id="alpr-modal-img" > 
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- <div class="col-md-3">
+              <div class="box box-success">
+                <div class="box-header">
+                  <h3 class="box-title">CROP IMAGE</h3>
+                  <div class="bcontaner">
+                    <div class="wid100" data-toggle = "modal" data-target = "#alprcamLiveFeed"> 
+                      <img src="static/images/portfolio5.jpg" class="profi_pic crop_img" id="alpr-modal-img" > 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            
+        </div>
+        <!-- End of Row 1 -->
+
+        <!-- Row 3 -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box box-success">
+              <div class="box-header">
+                <div class="bcontaner">   
+                  <input type="text" placeholder="Date picker" id="singleDateRange" class="pull-left btn" value="">
+                  <a href="#" onclick="check(event)" class="pull-left btn btn-danger" id="btngetCurrentdata">GET DATA</a>
+                  <a href="#" onclick="check(event)" class="pull-right btn btn-danger" id="generatePdf">Export XLS</a>
+                </div>
+                <!-- <div class="container table-stripe">      -->
+                  <table id="alpr_data_tbl" class="display table" style=" ">
+                    <thead class="off">
+                      <tr>
+                        <th data-field="ALPR_ID" data-formatter="nameFormatter">ALPR ID</th>
+                        <th data-field="Number_Plate" data-formatter="starsFormatter">Number Plate</th>
+                        <th data-field="Vehicle_Image" data-formatter="forksFormatter">Vehicle Image</th>
+                        <th data-field="QRCode">QRCode</th>
+                        <th data-field="Start_Date_Time">Start Date Time</th>
+                        <th data-field="End_Date_Time">End Date Time</th>
+                        <th data-field="Parking_Hours" data-formatter="forksFormatter">Parking Hours</th>
+                        <th data-field="Total_Cost">Total Cost</th>
+                        <th data-field="Vehicle_Num">Vehicle Number</th>
+                      </tr>
+                    </thead>                  
+                  </table>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Row 3 -->  
+     
+        <!-- Your Page Content Here --> 
+        
+      </section>
+      <!-- /.content --> 
+    </div>
+    <!-- /.content-wrapper --> 
+    <!-- Modal window for LIVE FEED -->
+    <div class="modal fade" id="alprcamLiveFeed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal_box" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>        
+          </div> -->
+          <div class="modal-body">
+            <img src="" id="alpr_veh_img" class="alpr-modal-img" width="100%" height="250px"/><br>
+            <div id="cropped_result" width="150px" height="150px"></div>        
+          </div>
+          <div class="block_header_footer">
+            <button type="button" id="crop-alpr-image" class="btn btn-primary" onclick='cropimage()'>Crop</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="cancelCrop()">Close</button>
+            <button type="button" id="save-cropped-image" class="btn btn-primary" >Apply</button>
+            <button type="button" id="do-alpr" class="btn btn-primary" >ALPR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- Modal window for Table Data Modal -->
+    <div class="modal fade" id="myTrDataModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog alpr-data-model" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>        
+          </div> -->
+          <div class="modal-zoom-body alpr_modal_body">
+            <div class="row">
+              <div class="col-md-6">
+
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                  <div class="">                  
+                    <div style="overflow: hidden; position: relative; height: 205.5px;">
+                      <img src="" id="alpr_veh_image" class="img-rounded" width="100%" height="80%"/>
+                    </div>                  
+                  </div>
+                </div>
+
+
+                <!-- <img src="" id="alpr_veh_image" class="" width="100%" height="25%"/> -->
+                <img src="" id="alpr_qrcode_image" class="" width="35%" height="25%"/>
+                <img src="" id="alpr_image" class="" width="55%" height="100px"/>                            
+              </div>
+              <div class="col-md-6 alpr-modal-p-div">
+                <p>ALPR ID  </p><p id="alpr-id"></p>
+                <p>Vehicle Number </p><p id="alpr_veh_num"></p>
+                <p>Start Date Time  </p><p id="alpr-startdatetime"></p>
+                <p>End Date Time  </p>
+                <input type="text" id="end_date_datepicker" class="alpr-enddatetime btn btn-primary" value=""><br><br>
+                <!-- <p id="alpr-enddatetime"></p> -->
+                <!-- <p>Parking Hours  </p><p id="alpr-parking-hours"></p> -->
+                <!-- <p>Total Cost  </p><p id="alpr-total-cost"></p> -->
+                <!-- Parking hours -->
+                  <div class="col-md-6">
+                    <div id="park_hrs_veh_meter"></div>                    
+                  </div>
+                  <!-- Parking amount -->
+                  <div class="col-md-6">
+                    <div id="park_hrs_amount_meter"></div>                    
+                  </div>
+                
+              </div>            
+            </div>          
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="update_alpr_record" class="update_alpr_record" >Update</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="cancelCrop()">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- End of crop image -->
+      
+
+    <!-- </div>/.modal -->
+    <!-- Main Footer -->
+    <footer class="main-footer"> 
+      <!-- To the right -->
+      <!-- <div class="pull-right hidden-xs"> Anything you want </div> -->
+      <!-- Default to the left --> 
+      <strong>Copyright &copy; 2018 <a href="#">Automatic License Plate Recognition</a>.</strong> All rights reserved. </footer>
+    
+    <!-- Control Sidebar --> 
+    <!-- /.control-sidebar -->
+    
+    <div class="control-sidebar-bg"></div>
+  </div>
+  <!-- ./wrapper --> 
+
+  <!-- REQUIRED JS SCRIPTS --> 
+
+  <!-- jQuery 2.1.4 --> 
+  <script src="static/js/jQuery-2.1.4.min.js"></script> 
+  <!-- Bootstrap 3.3.5 --> 
+  <script src="static/js/bootstrap.min.js"></script> 
+  <!-- AdminLTE App --> 
+  <script src="static/js/app.min.js"></script>
+
+  <!-- google maps scripts -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="static/js/maps/jquery.gmapping.min.js"></script>
+  <!-- <script src="static/js/maps/app.js"></script> -->
+  <!-- Gauge Meter JS -->
+  <!-- <script src="static/js/jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script> -->
+  <!-- Count of vehicles bar -->
+  <script src="static/js/radial-progress-bar.js"></script>
+  <script src="static/js/customImageAnpr.js"></script>
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+  <!-- Data table plugin -->
+  <!-- https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js -->
+  <!-- https://cdn.datatables.net/1.10.19/js/dataTables.jqueryui.min.js -->
+
+  <script type="text/javascript" src="static/js/jquery.dataTables.min.js"></script>
+  <!-- <link href="static/css/twitter-bootstrap/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link href="static/css/jquery.dataTables.min.css" rel="stylesheet"> -->
+  
+  <!-- Croping image js -->
+  <script src="static/js/cropper.js"></script>
+  <script src="static/js/cropper.min.js"></script>
+  <script src="static/js/croper-main.js"></script>
+  <link rel="stylesheet" href="static/css/cropper.css">
+  <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/cropper.min.css">
+  <link rel="stylesheet" href="static/css/croper-main.css">
+
+    <!-- World Map -->
+  <!-- <script src="static/js/mapdata.js"></script> -->
+  <!-- <script src="static/js/worldmap.js"></script> -->
+  <!-- Dot meter -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="static/js/dot/donutty-jquery.js"></script>
+  <!-- Gauge meters -->
+  <link rel="stylesheet" href="static/css/fonts/fonts.css">
+  <script src="static/js/gauge.min.js"></script>
+  <!-- Just guage scripts -->
+  <script src="static/js/raphael-2.1.4.min.js"></script>
+  <script src="static/js/justgage.js"></script>
+  <!-- <script src="http://cdn.jsdelivr.net/raphael/2.1.2/raphael-min.js"></script> -->
+  <!-- <script src="http://cdn.jsdelivr.net/justgage/1.0.1/justgage.min.js"></script> -->
+  <!-- File Tree scripts -->
+  <!-- <script src="static/js/bootstrap.min.js"></script>  -->
+  <script src="static/js/jquery-ui.min.js"></script>
+  <!-- <script src="static/bower_components/nestedSortable/jquery.mjs.nestedSortable.js"></script>  -->
+  <script src="static/dist/js/file-tree.min.js"></script>
+  <script type="text/javascript" src="static/js/canvasjs.min.js"></script>
+  <link href="static/dist/css/file-tree.min.css" rel="stylesheet">
+  <link href="static/css/anpr.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/jquery-ui.css">
+
+  <!-- Date picker -->
+  <link href="static/css/style-datepicker.css" rel="stylesheet" type="text/css">
+  <link href="static/css/calendar.css" rel="stylesheet" type="text/css">
+  <!-- <script src="https://code.jquery.com/jquery-3.0.0.slim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+  <script src="static/js/es6.js"></script>
+  <!-- PDF scripts -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+  <!-- XLS scripts -->
+  <script src="static/js/jquery.table2excel.min.js"></script>
+  <!-- Graph js -->
+  <script src="static/js/simple-chart.js"></script>
+
+  <script type="text/javascript">
+    function exportToXls() {
+      $("#alpr_data_tbl").table2excel({
+        exclude: ".noExl",
+        name: "Excel Document Name",
+        filename: "myFileName",
+        fileext: ".xls",
+        exclude_img: true,
+        exclude_links: true,
+        exclude_inputs: true
+      });
+    }
+    function exportToPdf() {
+      html2canvas($('#alpr_data_tbl')[0], {
+          onrendered: function (canvas) {
+              var data = canvas.toDataURL();
+              var docDefinition = {
+                  content: [{
+                      image: data,
+                      width: 500
+                  }]
+              };
+              pdfMake.createPdf(docDefinition).download("anpr_analytics.pdf");
+          }
+      });
+    }
+    $('#generatePdf').click(function () {
+      exportToXls()
+    })
+  </script>
+  <script>
+    'use strict';
+
+    $(function () {
+        'use strict';
+
+        $('#singleDateRange').DatePicker({
+            startDate: moment()
+        });
+        $('#end_date_datepicker').DatePicker({
+            startDate: moment()
+        });
+
+        $('#rangedate').DatePicker({
+            type: 'rangedate',
+        startDate: moment().subtract(1, 'week'),
+        endDate: moment(),
+        ranges: [{
+            label: "Yesterday",
+            startDate: moment().subtract(1, 'day'),
+            endDate: moment().subtract(1, 'day')
+        }, {
+            label: 'Sunday',
+            startDate: moment().startOf('week'),
+            endDate: moment()
+        }, {
+            label: '2 Weeks',
+            startDate: moment().startOf('week').subtract(1, 'week'),
+            endDate: moment()
+        }, {
+            label: 'This Month',
+            startDate: moment().startOf('month'),
+            endDate: moment()
+        }, {
+            label: 'Last Month',
+            startDate: moment().startOf('month').subtract(1, 'month'),
+            endDate: moment().startOf('month')
+        }, {
+            label: 'This Year',
+            startDate: moment().startOf('year'),
+            endDate: moment().startOf('moth')
+        }]
+        });
+       $('#modalmode').DatePicker({
+            startDate: moment(),
+            modalMode: true
+        });
+    });
+    $('#btngetCurrentdata').click(function(){
+      var selectedDate = $('#singleDateRange').val().replace(/[.]/g, '-');
+      console.log(selectedDate);
+      createAnalyticsTable(selectedDate, null, null, 'CURRENT');
+    });
+    function check(e)
+    {
+      e.preventDefault();
+      return false;
+    }
+
+  </script>
+  <!-- Clock plugin scripts -->
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" media="screen" href="static/css/main.css"/> -->
+  <!-- <script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>  -->
+  <script language="javascript" type="text/javascript" src="static/js/jquery.thooClock.js"></script> 
+  <!--  End of clock plugin -->
+  <script type="text/javascript"> 
+    // just gauge 
+    //  Vehicle count meter
+    var veh_count_meter = new JustGage({
+      id: "veh_count_meter",
+      value: 0,
+      min: 0,
+      max: 10000000,
+      // title: "VEHICLE COUNT",        
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",
+      titleFontFamily: "sans-serif",
+      titleFontSize: "8px",
+      levelColors : ["#b6e6fc"], 
+      pointer: true,       
+      label: "",
+      relativeGaugeSize: true
+    });  
+    //  Temperature meter
+    var temp_meter = new JustGage({
+      id: "temp_meter",
+      value: 0,
+      min: 0,
+      max: 100,
+      title: "TEMPERATURE",
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",  
+      pointer: true,  
+      levelColors : ["#b6e6fc"],
+      label: "°C",
+      relativeGaugeSize: true
+    });
+    //  wind meter
+    var wind_meter = new JustGage({
+      id: "wind_meter",
+      value: 0,
+      min: 0,
+      max: 10000000,
+      title: "WIND",
+      relativeGaugeSize: true,
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#b6e6fc"],
+      pointer: true,  
+      label: "SE"
+    });
+    //  humidity meter
+    var humid_meter = new JustGage({
+      id: "humid_meter",
+      value: 25,
+      min: 0,
+      max: 10000000,
+      title: "HUMIDITY",
+      relativeGaugeSize: true,
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",
+      pointer: true,
+      levelColors : ["#b6e6fc"], 
+      label: "°C"
+    });
+    // Amount meter
+    var amount_meter = new JustGage({
+      id: "amount_meter",
+      value: 0,
+      min: 0,
+      max: 10000000,
+      // title: "TOTAL AMOUNT", 
+      relativeGaugeSize: true,       
+      titleFontColor : "#5f5f5f",
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#b6e6fc"], 
+      pointer: true,       
+      label: ""
+    });
+    // Hours meter
+    var park_hrs_meter = new JustGage({
+      id: "park_hrs_meter",
+      value: 0,
+      min: 0,
+      max: 100000,
+      // title: "PARKING HOURS",        
+      titleFontColor : "#5f5f5f",
+      relativeGaugeSize: true,
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#b6e6fc"], 
+      pointer: true,       
+      label: ""
+    });
+    // Hours meter
+    var park_hrs_veh_meter = new JustGage({
+      id: "park_hrs_veh_meter",
+      value: 0,
+      min: 0,
+      max: 10000,
+      title: "PARKING HOURS",    
+      titleFontSize: "15px",    
+      titleFontColor : "black",
+      relativeGaugeSize: true,
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#fa9400"], 
+      pointer: true,       
+      label: ""
+    });
+    // modal amount meter
+    var park_hrs_amount_meter = new JustGage({
+      id: "park_hrs_amount_meter",
+      value: 0,
+      min: 0,
+      max: 1000000,
+      titleFontSize: "15px",
+      title: "PARKING AMOUNT",        
+      titleFontColor : "black",
+      relativeGaugeSize: true,
+      valueFontColor : "#5f5f5f",
+      levelColors : ["#c2cc0d"], 
+      pointer: true,       
+      label: ""
+    });
+    
+    $(document).ready(function () {
+      var file_name = '';
+      var labels = [""];
+      var values = [0];
+      var outputValues = abbreviateNumber(values);
+      createTimeChart(outputValues,labels,values);
+
+      clock();
+      //  File tree function
+      var data = [{
+        id: 'dir-1',
+        name: 'Root',
+        type: 'dir',
+        children: {{fileslist2 | safe}}
+      }];
+      $('#fixed-tree').fileTree({
+        data: data
+      });
+      var selectableTree = $('#selectable-tree').fileTree({
+        data: data,
+        selectable: true
+      });  
+      // To diaplst files in ALPR tab
+      selectableTree.bind('itemSelected', function(e, el){
+        var output = 'Selected item:' + "\n";
+        //output += 'ID: ' + $(el).data('id') + "\n";
+        output += 'Name: ' + $(el).data('name') + "\n";
+        output += 'Type: ' + $(el).data('type');
+        var filetype = $(el).data('type');
+        var imgsrc = $(el).data('id');        
+        console.log(filetype);
+        if(!filetype.indexOf('folder')){  
+          console.log('Folder Type')        ;
+          $('.veh_img').attr('src','static/images/portfolio5.jpg');
+        }else if(!filetype.indexOf('file')){
+          console.log('File Type')        ;
+          $('.veh_img').attr('src', imgsrc);
+          file_name = imgsrc.filename()          ;
+        }
+        $('selectable-tree-img').attr('src', imgsrc);
+        
+        
+        // $('#selectable-tree-output').val(output);
+        // $('#selectable-tree-output-thumbnail').attr('src', imgsrc);
+
+        var substr = 'file';
+        if(filetype.indexOf(substr)!=-1){
+          var currentdate = new Date(); 
+          var date = currentdate.getDate() + "/"
+          + (currentdate.getMonth()+1)  + "/" 
+          + currentdate.getFullYear();
+          var time = currentdate.getHours() + ":"  
+          + currentdate.getMinutes() + ":" 
+          + currentdate.getSeconds();
+          $.ajax({
+            url: 'http://localhost:5000/anprprocess?image='+imgsrc,                
+            type: 'POST',
+            success: function(response){                    
+              var resp = response;
+              var obj = JSON.parse(resp);
+              vehNum = JSON.parse(obj.data);
+              console.log(obj);
+              $('#number').text(vehNum.vehicle_number);
+              $('#today_date_time').text(date+' '+time);
+              $('#valid_to_date_time').text(time);
+              $('#amount').text("100");
+              // $('#veh-num-img').prop('src', vehNum.numberplate);
+              $('#selectable-tree-img').attr('src', vehNum.numplatedetectimg);
+              $('#alpr-modal-img').attr('src', vehNum.numplatedetectimg);
+              $('#alpr_veh_img').attr('src', vehNum.numplatedetectimg);
+              $('#veh-qrcode-img').attr('src', vehNum.qrcode);
+              $('#alpr_img').attr('src', vehNum.numplatedetectimg);
+              labels=[];
+              values=[];
+              labels.push(file_name);     
+              values.push((vehNum.processtime).toFixed(4));
+              createTimeChart(outputValues,labels,values);
+              
+
+                //$('#livefeed').attr('src', '/videofeed');
+                var node = document.getElementById('selectable-tree-img');
+                refreshimage(node);
+                var node1 = document.getElementById('alpr-modal-img');
+                refreshimage(node1);
+                var node2 = document.getElementById('alpr_img');
+                refreshimage(node2);
+                var node3 = document.getElementById('alpr_veh_img');
+                refreshimage(node3);
+                $('.alpr-modal-img').cropper('destroy');
+                // cropimage(vehNum.numplatedetectimg);
+                // drawchart(obj.qrcount, obj.vehcount, obj.date);
+                // CreateTableFromJSON(obj.tabledata);
+                // Creation of table with current date date
+                var d = new Date();
+                var month = d.getMonth()+1;
+                var day = d.getDate();
+                var current_date = d.getFullYear() + '-' +
+                    ((''+month).length<2 ? '0' : '') + month + '-' +
+                    ((''+day).length<2 ? '0' : '') + day;                  
+                createAnalyticsTable(current_date, null, null, 'CURRENT');                  
+                veh_count_meter.refresh(obj.vehcount);                     
+              },
+              error: function(error){
+                console.log(error);
+              }
+            });
+          }
+      });
+    })
+  </script>
+      <script>
+        function abbreviateNumber(arr) {
+            var newArr = [];
+            $.each(arr, function (index, value) {
+                var newValue = value;
+                if (value >= 1000) {
+                    var suffixes = [" ", " K", " mil", " ", " t"];
+                    var suffixNum = Math.floor(("" + value).length / 3);
+                    var shortValue = '';
+                    for (var precision = 2; precision >= 1; precision--) {
+                        shortValue = parseFloat((suffixNum != 0 ? (value / Math.pow(1000, suffixNum) ) : value).toPrecision(precision));
+                        var dotLessShortValue = (shortValue + '').replace(/[^a-zA-Z 0-9]+/g, '');
+                        if (dotLessShortValue.length <= 2) {
+                            break;
+                        }
+                    }
+                    if (shortValue % 1 != 0)  shortNum = shortValue.toFixed(1);
+                    newValue = shortValue + suffixes[suffixNum];
+                }
+                newArr[index] = newValue;
+            });
+            return newArr;
+        }
+        function createTimeChart(outputValues,labels,values) {
+          $('.bar-chart').simpleChart({
+              title: {
+                  text: 'ANPR Processing Time',
+                  align: 'center'
+              },
+              type: 'bar',
+              layout: {
+                  width: '100%'
+              },
+              item: {
+                  label: labels,
+                  value: values,
+                  outputValue: outputValues,
+                  color: ['#00aeef'],
+                  prefix: '',
+                  suffix: 'Sec.',
+                  render: {
+                      margin: 0,
+                      size: 'relative'
+                  }
+              }
+          });
+        }
+    </script>
+  </body>
+  </html>

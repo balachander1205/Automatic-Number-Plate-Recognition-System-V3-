@@ -1,0 +1,6 @@
+s_no,camera_name,camera,latitude,longitude
+1,camera_1,static/videos/alpr-feed.mp4,17.38502,78.4867
+2,camera_2,static/videos/alpr-feed1.mp4,17.48502,78.5867
+3,camera_3,static/videos/alpr-feed7.mp4,17.58502,78.6867
+4,camera_4,static/videos/alpr-feed3.mp4,17.68502,78.7867
+5,camera_5,static/videos/MatrixPocketanpr.mp4,17.78502,78.8867
